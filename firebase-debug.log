@@ -1,0 +1,14 @@
+[debug] [2025-05-22T10:57:46.559Z] ----------------------------------------------------------------------
+[debug] [2025-05-22T10:57:46.562Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\GT\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2025-05-22T10:57:46.562Z] CLI Version:   13.0.3
+[debug] [2025-05-22T10:57:46.563Z] Platform:      win32
+[debug] [2025-05-22T10:57:46.563Z] Node Version:  v20.11.0
+[debug] [2025-05-22T10:57:46.563Z] Time:          Thu May 22 2025 16:27:46 GMT+0530 (India Standard Time)
+[debug] [2025-05-22T10:57:46.563Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-22T10:57:46.641Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-22T10:57:46.642Z] > authorizing via signed-in user (solutionsbluesap@gmail.com)
+[debug] [2025-05-22T10:57:46.642Z] [iam] checking project tele-gold for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-05-22T10:57:46.644Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tele-gold:testIamPermissions [none]
+[debug] [2025-05-22T10:57:46.644Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tele-gold:testIamPermissions x-goog-quota-user=projects/tele-gold
+[debug] [2025-05-22T10:57:46.645Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tele-gold:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
