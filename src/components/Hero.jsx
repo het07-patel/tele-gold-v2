@@ -24,13 +24,28 @@ const Hero = ({
       }`}
     >
       {imageSrc ? (
-        <CustomImage
-          srcAttr={imageSrc}
-          altAttr=""
-          titleAttr=""
-          priority
-          className="w-full h-full object-cover"
-        />
+        <div className="relative w-full h-full">
+  <CustomImage
+    srcAttr={imageSrc}
+    altAttr=""
+    titleAttr=""
+    priority
+    className="w-full h-full object-cover"
+  />
+  <div
+    className="absolute inset-0 pointer-events-none z-5"
+    style={{
+      background: `
+        radial-gradient(circle at top left, rgba(0, 0, 0, 0.92), transparent 50%),
+        radial-gradient(circle at top right, rgba(0, 0, 0, 0.88), transparent 50%),
+        radial-gradient(circle at bottom left, rgba(0, 0, 0, 0.93), transparent 50%),
+        radial-gradient(circle at bottom right, rgba(0, 0, 0, 0.89), transparent 50%)
+      `,
+    }}
+  />
+</div>
+
+
       ) : (
         <video
           muted
