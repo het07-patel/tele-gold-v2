@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import heroCoin from "@/assets/images/hero-coins.webp";
+import heroGoldSilver from "@/assets/images/what-we-buy/gold-silver-platinum/home-goldsilver.webp";
 import HeadingTitle from "@/components/HeadingTitle";
 import {
   AnimatedSection,
@@ -132,7 +132,7 @@ export default function GoldSilverPlatinum() {
       <section>
         <Hero
           title="Trusted Gold, Silver & Platinum Experts"
-          imageSrc={heroCoin}
+          imageSrc={heroGoldSilver}
           textAlignment="center"
           titleAttr=""
           altAttr=""

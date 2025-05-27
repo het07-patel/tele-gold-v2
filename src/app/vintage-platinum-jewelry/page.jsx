@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import heroCoin from "@/assets/images/hero-coins.webp";
+import heroVintage from "@/assets/images/what-we-buy/vintage-platinum-jewelry/home-vintage.webp";
 import KeepInTouch from "@/components/KeepInTouch";
 import vintage1 from "@/assets/images/what-we-buy/vintage-platinum-jewelry/vintage-1.webp";
 import vintage2 from "@/assets/images/what-we-buy/vintage-platinum-jewelry/vintage-2.webp";
@@ -120,7 +120,7 @@ export default function VintagePlatinumJewelry() {
       <section>
         <Hero
           title="Celebrating the Legacy of Vintage Platinum Jewelry"
-          imageSrc={heroCoin}
+          imageSrc={heroVintage}
           textAlignment="center"
           titleAttr=""
           altAttr=""

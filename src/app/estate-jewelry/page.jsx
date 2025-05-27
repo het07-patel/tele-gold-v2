@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import heroCoin from "@/assets/images/hero-coins.webp";
+import heroEstate from "@/assets/images/what-we-buy/estate-jewelry/home-estate.webp";
 import estate1 from "@/assets/images/what-we-buy/estate-jewelry/estate-1.png";
 import estate2 from "@/assets/images/what-we-buy/estate-jewelry/estate-2.webp";
 import estate3 from "@/assets/images/what-we-buy/estate-jewelry/estate-3.webp";
@@ -72,7 +72,7 @@ export default function EstateJewelry() {
       <section>
         <Hero
           title="Trusted Place to Buy and Sell Estate Diamond Jewelry"
-          imageSrc={heroCoin}
+          imageSrc={heroEstate}
           textAlignment="center"
           titleAttr=""
           altAttr=""
