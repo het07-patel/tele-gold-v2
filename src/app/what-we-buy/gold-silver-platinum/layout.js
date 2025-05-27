@@ -1,11 +1,11 @@
 import { WebsiteUrl } from "@/utils/environments";
 import { generateMetadata } from "@/utils/metaConfig";
 
-const META_TITLE = "Sell Your Gold, Silver, and Platinum with Confidence";
+const META_TITLE = "Buy or Sell Gold, Silver, and Platinum with Confidence";
 const META_DESCRIPTION =
-  "Get the best value when you sell your gold, silver, or platinum to us. Trusted buyers with transparent evaluations and top-dollar payouts.";
+  "Buy or sell your gold, silver, or platinum with confidence. We offer top payouts, fair evaluations, and expert service for all precious metals.";
 const META_KEYWORDS =
-  "sell gold, sell silver, sell platinum, cash for gold, sell precious metals, gold buyers, silver buyers, platinum buyers";
+  "buy gold, sell gold, buy silver, sell silver, buy platinum, sell platinum, gold dealers, silver dealers, platinum dealers, cash for gold, precious metals buyers, local gold and silver buyers";
 const CANONICAL_URL = `${WebsiteUrl}/what-we-buy/gold-silver-platinum`;
 
 export const metadata = generateMetadata({

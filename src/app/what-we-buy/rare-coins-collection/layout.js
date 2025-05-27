@@ -3,9 +3,9 @@ import { generateMetadata } from "@/utils/metaConfig";
 
 const META_TITLE = "Turn Your Rare Coins and Collectibles into Instant Cash";
 const META_DESCRIPTION =
-  "Sell your rare coins and collectibles with trusted experts. Get accurate appraisals, top market value, and a stress-free selling experience. Discover the hidden worth of your unique collection today!";
+  "Buy or sell rare coins and collectibles with trusted experts. Get fast appraisals, accurate valuations, and competitive cash offers.";
 const META_KEYWORDS =
-  "sell rare coins, coin buyers near me, collectible coins, antique coin buyers, rare coin appraisals, sell gold coins, vintage coin collection, silver coin buyers, cash for rare coins";
+  "buy coins, sell coins, rare coin buyers, collectible coin dealers, coin appraisals, antique coins, cash for coins, gold coins, silver coins, coin resale, coin dealers near me";
 const CANONICAL_URL = `${WebsiteUrl}/what-we-buy/rare-coins-collection`;
 
 export const metadata = generateMetadata({

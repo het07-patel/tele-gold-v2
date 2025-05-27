@@ -28,9 +28,9 @@ const animatedContent = [
     titleAttr: "",
     altAttr: "",
     description: [
-      "When it comes to selling precious metals, trust is everything. At Tele Gold Jewelers, we pride ourselves on transparency, integrity, and providing fair value. Our expert appraisers assess your items with meticulous attention to detail.",
-      "Whether it’s gold jewelry, silver coins, or platinum accessories, we guarantee competitive market-based offers that reflect their true worth. Every transaction is handled with professionalism, ensuring a smooth experience.",
-      "With over 30 years of experience, we’ve built long-lasting relationships by putting customer satisfaction first. Your trust is our most valuable asset.",
+      "With over 50 years of industry experience, TeleGold has become a trusted destination for those looking to buy or sell gold, silver, and platinum with confidence. We believe in honest, transparent evaluations and take pride in offering fair, market-based prices that reflect the true value of your precious metals.",
+      "Whether you're selling old gold jewelry, silver coins, flatware, or platinum pieces—or looking to invest in high-quality metals—we handle each transaction with professionalism, care, and integrity. Our knowledgeable team carefully assesses every item based on weight, purity, and current market rates, ensuring you receive the value you deserve.",
+      "Our long-standing reputation is built on trust, personalized service, and a deep commitment to customer satisfaction. At TeleGold, we’re not just conducting transactions—we’re building lasting relationships, one piece at a time..",
     ],
 
     direction: "LTF",
@@ -40,9 +40,9 @@ const animatedContent = [
     titleAttr: "",
     altAttr: "",
     description: [
-      "Selling your gold, silver, or platinum shouldn’t be complicated. At Tele Gold Jewelers, we simplify the process by offering accurate assessments backed by real-time market rates. ",
-      "Our experienced team evaluates your items thoroughly, whether it’s vintage silverware, gold bracelets, or platinum rings. We explain every step of the process, so you feel confident in your decision.",
-      "Transparency, expertise, and top-notch customer service are the pillars of our business. When you sell to us, you’re partnering with a trusted buyer committed to your satisfaction.",
+      "Whether you're buying or selling, we make precious metal transactions simple and transparent. At Tele Gold Jewelers, our expert team provides accurate evaluations based on real-time market rates to ensure fair value every time.",
+      "From vintage silverware and gold bracelets to platinum coins and investment bullion, we assess each item with care and clarity. We walk you through every step—so whether you're adding to your collection or cashing in, you’ll feel informed and confident.",
+      "With 50 years of experience, we’re committed to delivering exceptional service, honest pricing, and a seamless experience you can trust.",
     ],
 
     direction: "LTF",
@@ -60,7 +60,7 @@ const benefits = [
     number: "1",
     title: "Transparent Appraisals",
     description:
-      "We offer clear, professional evaluations, ensuring you understand the true value of your gold, silver, or platinum.",
+      "Whether buying or selling, we provide clear, professional evaluations so you fully understand the value of your gold, silver, or platinum.",
     image: goldSilver6,
     titleAttr: "",
     altAttr: "",
@@ -69,16 +69,16 @@ const benefits = [
     number: "2",
     title: "Fair and Competitive Offers",
     description:
-      "Receive top market value with no hidden fees or confusing processes.",
+      "Get top market prices with no hidden fees or complicated terms—whether you’re purchasing or selling.",
     image: goldSilver7,
     titleAttr: "",
     altAttr: "",
   },
   {
     number: "3",
-    title: "Quick and Hassle-Free Transactions",
+    title: "Quick and Hassle-Free Process",
     description:
-      "Enjoy a seamless selling experience with fast appraisals and immediate payouts.",
+      "Enjoy a smooth experience with fast appraisals, fair offers, and prompt transactions on both buying and selling.",
     image: goldSilver8,
     titleAttr: "",
     altAttr: "",
@@ -87,7 +87,7 @@ const benefits = [
     number: "4",
     title: "Trusted by the Community",
     description:
-      "With years of experience and a reputation built on trust, we’ve become the go-to choice for those looking to sell their precious metals.",
+      "With decades of experience and a strong reputation for integrity, we are the trusted choice for precious metals transactions.",
     image: goldSilver9,
     titleAttr: "",
     altAttr: "",
@@ -101,10 +101,10 @@ const serviceDetail = {
   bgImg: goldSilver12,
   bgAltAttr: "",
   bgTitleAttr: "",
-  title: "Why Sell to Us?",
+  title: "Why Choose Us?",
   description: [
-    "Honest Pricing, Trusted Service",
-    "We offer transparent appraisals, market-driven pricing, and a hassle-free process. With a reputation built on trust and customer care, we ensure you get the best value with every transaction.",
+    "Fair Deals, Trusted Expertise",
+    "Whether you're buying or selling, we offer transparent appraisals, competitive market-based pricing, and a seamless experience. With a reputation built on trust, expertise, and customer-first service, we ensure every transaction delivers real value and peace of mind.",
   ],
   marqueeTitle: "Gold: The Eternal Classic",
   service: [
@@ -131,7 +131,7 @@ export default function GoldSilverPlatinum() {
     <>
       <section>
         <Hero
-          title="Guaranteed Fair Prices for Gold, Silver & Platinum"
+          title="Trusted Gold, Silver & Platinum Experts"
           imageSrc={heroCoin}
           textAlignment="center"
           titleAttr=""
@@ -141,7 +141,7 @@ export default function GoldSilverPlatinum() {
 
       <section className="pt-10 md:pt-14 xl:pt-16 2xl:pt-36">
         <div>
-          <HeadingTitle sectionName="Trusted Buyers of Gold, Silver, and Platinum" />
+          <HeadingTitle sectionName="Gold, Silver & Platinum Bought and Sold with Confidence" />
         </div>
         <div className="container pt-4 md:pt-8 lg:pt-14 2xl:pt-20">
           <AnimatedSection {...animatedContent[0]} />
@@ -153,7 +153,7 @@ export default function GoldSilverPlatinum() {
       </section>
 
       <section className="pt-10 md:pt-14 xl:pt-16 2xl:pt-36">
-        <HeadingTitle sectionName="Fair Market Value for Your Precious Metals" />
+        <HeadingTitle sectionName="Fair Market Value for Gold, Silver & Platinum" />
 
         <div className="container pt-4 md:pt-8 lg:pt-14 2xl:pt-20">
           <AnimatedSection {...animatedContent[1]} />
@@ -172,11 +172,10 @@ export default function GoldSilverPlatinum() {
             </h2>
 
             <p className="mt-4 md:text-md lg:text-lg 2xl:text-[24px] max-w-2xl">
-              Experience a straightforward, transparent, and efficient selling
-              process at Tele Gold Jewelers. Our experts ensure quick
-              appraisals, fair offers, and seamless transactions, making it easy
-              to turn your precious metals into cash without any stress or
-              hidden fees.
+             Experience a smooth, transparent, and efficient process at Tele Gold Jewelers—whether you're buying or selling.
+              Our experts provide quick appraisals, fair market offers, and seamless transactions.
+              From investing in gold and silver to selling unwanted jewelry or coins, 
+              we make every step simple, secure, and stress-free—no hidden fees, just honest service.
             </p>
           </div>
 
@@ -199,7 +198,7 @@ export default function GoldSilverPlatinum() {
       </section>
 
       <section className="pt-10 md:pt-14 xl:pt-16 2xl:pt-36 container">
-        <HeadingTitle sectionName="Why Sell to Tele Gold Jewelers?" />
+        <HeadingTitle sectionName="Why Choose Tele Gold Jewelers?" />
 
         <div className="mx-auto flex flex-col justify-center space-y-12 pt-4 md:pt-8 lg:pt-14 2xl:pt-20 px-4 md:px-8 lg:px-12">
           {benefits.map((item, index) => (

@@ -2,11 +2,11 @@ import { WebsiteUrl } from "@/utils/environments";
 import { generateMetadata } from "@/utils/metaConfig";
 
 const META_TITLE =
-  "Sell Platinum Jewelry – Vintage, Diamond, and Estate Platinum Buyers";
+  "Buy or Sell Platinum Jewelry – Vintage, Diamond, and Estate Platinum Buyers";
 const META_DESCRIPTION =
-  "Sell your platinum jewelry, including vintage and diamond pieces, at top market value. We buy platinum rings, necklaces, estate jewelry, and more with expert appraisals and competitive offers.";
+  "We buy and sell platinum jewelry including rings, vintage pieces, and estate collections. Get competitive offers and expert appraisals.";
 const META_KEYWORDS =
-  "sell platinum jewelry, platinum jewelry buyers, sell vintage platinum, diamond platinum jewelry, estate platinum jewelry, sell platinum rings, platinum appraisals, sell platinum Cicero";
+  "buy platinum jewelry, sell platinum jewelry, platinum rings, vintage platinum, estate platinum, platinum jewelry dealers, platinum buyers, platinum jewelry resale";
 const CANONICAL_URL = `${WebsiteUrl}/what-we-buy/vintage-platinum-jewelry`;
 
 export const metadata = generateMetadata({

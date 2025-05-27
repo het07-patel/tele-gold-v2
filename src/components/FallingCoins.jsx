@@ -47,7 +47,7 @@ const FallingCoins = ({ coins, description }) => {
       ))}
 
       <MarqueeText
-        text={["We Buy  •  RARE COINS & COLLECTIBLES  •"]}
+        text={["We Buy & SELL  •  RARE COINS & COLLECTIBLES  •"]}
         isAbsolute={false}
         MarqueeClassName="md:text-xl lg:text-6xl"
       />

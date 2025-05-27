@@ -21,7 +21,7 @@ export default function ComparisonScroll() {
 
   const [currentTitle, setCurrentTitle] = useState("Jewelry");
   const [currentDescription, setCurrentDescription] = useState(
-    "Explore a stunning collection of estate jewelry featuring timeless rings, necklaces, bracelets, and earrings designed to captivate with elegance and unique craftsmanship."
+   "Timeless estate jewelry pieces featuring vintage charm and fine craftsmanship, carefully curated for quality, beauty, and lasting value."
   );
 
   useEffect(() => {
@@ -41,14 +41,14 @@ export default function ComparisonScroll() {
         onUpdate: (self) => {
           const progress = self.progress;
           if (progress < 0.5) {
-            setCurrentTitle("Jewelry");
+            setCurrentTitle("Estate Jewelry");
             setCurrentDescription(
-              "Explore a stunning collection of estate jewelry featuring timeless rings, necklaces, bracelets, and earrings designed to captivate with elegance and unique craftsmanship."
+              "Timeless estate jewelry pieces featuring vintage charm and fine craftsmanship, carefully curated for quality, beauty, and lasting value."
             );
           } else {
             setCurrentTitle("Coins");
             setCurrentDescription(
-              "Explore our collection of gold and silver coins, ideal for investment or commemorating special moments."
+              "Discover rare coins, Morgan and silver dollars, expertly sourced and selected with over 50 years of trusted collecting experience."
             );
           }
         },

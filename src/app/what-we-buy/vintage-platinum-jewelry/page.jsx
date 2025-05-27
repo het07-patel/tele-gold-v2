@@ -119,7 +119,7 @@ export default function VintagePlatinumJewelry() {
     <>
       <section>
         <Hero
-          title="Turn Your Platinum Jewelry into Cash – Fast and Secure"
+          title="Celebrating the Legacy of Vintage Platinum Jewelry"
           imageSrc={heroCoin}
           textAlignment="center"
           titleAttr=""
