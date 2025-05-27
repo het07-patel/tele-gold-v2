@@ -1,6 +1,6 @@
 "use client";
 import Hero from "@/components/Hero";
-import heroCoin from "@/assets/images/hero-coins.webp";
+import heroAboutUs from "@/assets/images/hero-aboutus.webp";
 import HeadingTitle from "@/components/HeadingTitle";
 import {
   AnimatedCircleText,
@@ -68,7 +68,7 @@ export default function AboutUs() {
       <section>
         <Hero
           title="Commitment of Quality, Transparency, and Service"
-          imageSrc={heroCoin}
+          imageSrc={heroAboutUs}
           textAlignment="center"
           titleAttr=""
           altAttr=""

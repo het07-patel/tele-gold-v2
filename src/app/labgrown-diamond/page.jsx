@@ -37,7 +37,7 @@ import {
 import { LinkButton } from "@/components/button";
 import { useEffect, useRef, useState } from "react";
 import LabgrownCard from "@/components/labgrownCard";
-import { carouselImages } from "../what-we-buy/diamond-jewelry/page";
+import { carouselImages } from "../diamond-jewelry/page";
 import HeadingTitle from "@/components/HeadingTitle";
 const whyChooseLabGrownDiamonds = [
   {

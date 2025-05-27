@@ -12,48 +12,37 @@ const serviceLinks = [
 ];
 
 const whatWeBuyLinks = [
+   {
+    url: "/rare-coins-collection",
+    name: "Rare Coins & Collections",
+  },
   {
-    url: "/what-we-buy/gold-silver-platinum",
+    url: "/gold-silver-platinum",
     name: "Gold, Silver, Platinum",
   },
   {
-    url: "/what-we-buy/diamond",
-    name: "Diamonds",
+    url: "/estate-jewelry",
+    name: "Estate Jewelry",
   },
-  { url: "/what-we-buy/watches", name: "Watches / Fine Watches" },
-  { url: "/what-we-buy/diamond-jewelry", name: "Diamond Jewelry" },
-  { url: "/what-we-buy/estate-jewelry", name: "Estate Jewelry" },
   {
-    url: "/what-we-buy/vintage-platinum-jewelry",
+    url: "/diamond",
+    name: "Lab Grown Diamond",
+  },
+  { url: "/diamond-jewelry", name: "Lab Diamond Jewelry" },
+  { url: "/watches", name: "Watches" },
+ {
+    url: "/vintage-platinum-jewelry",
     name: "Vintage Platinum Jewelry",
   },
-  {
-    url: "/what-we-buy/rare-coins-collection",
-    name: "Rare Coins & Collections",
-  },
-];
 
-const whatWeSellLinks = [
-  { url: "/what-we-sell/bracelets", name: "Bracelets" },
-  { url: "/what-we-sell/rings", name: "Rings" },
-  { url: "/what-we-sell/necklaces", name: "Necklaces" },
-  { url: "/what-we-sell/earrings", name: "Earrings" },
-  { url: "/what-we-sell/engagement-rings", name: "Engagement Rings" },
-  { url: "/what-we-sell/chains", name: "Chains" },
-  { url: "/what-we-sell/pendants", name: "Pendants" },
-  { url: "/what-we-sell/watches", name: "Watches" },
-  {
-    url: "/what-we-sell/vintage-platinum-jewelry",
-    title: "Vintage Platinum Jewelry",
-  },
 ];
 
 export default function Footer() {
   return (
     <footer className="bg-primary text-white">
       <div className="container py-10 lg:py-16">
-        <div className="flex flex-wrap justify-between gap-10 w-full">
-          <div className="flex-1 min-w-[250px] space-y-4">
+        <div className="flex flex-wrap gap-10 w-full">
+          <div className="flex-1 md:w-1/4  min-w-[250px] space-y-4">
             <Link href={"/"} className="text-center block">
               <CustomImage
                 srcAttr={logo}
@@ -64,11 +53,11 @@ export default function Footer() {
               Jewelry that makes you feel as precious as you are.
             </h3>
           </div>
-
+ <div className="flex flex-1 justify-center flex-wrap gap-10 w-full md:w-2/3">
           {[
+            { title: "What We Buy & Sell", links: whatWeBuyLinks },
             { title: "Services", links: serviceLinks },
-            { title: "What We Buy", links: whatWeBuyLinks },
-            { title: "What We Sell", links: whatWeSellLinks },
+
           ].map((section, index) => (
             <div key={index} className="flex-1 min-w-[250px]">
               <h3 className="text-3xl font-belleza uppercase">
@@ -86,7 +75,7 @@ export default function Footer() {
                 ))}
               </div>
             </div>
-          ))}
+          ))}</div>
         </div>
       </div>
 

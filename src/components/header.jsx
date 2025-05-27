@@ -28,40 +28,51 @@ const Header = () => {
   const toggleMenu = () => dispatch(setIsMenuOpen(!isMenuOpen));
 
   const whatWeSellDropDownList = [
-    { href: "/what-we-sell/bracelets", title: "Bracelets" },
-    { href: "/what-we-sell/rings", title: "Rings" },
-    { href: "/what-we-sell/necklaces", title: "Necklaces" },
-    { href: "/what-we-sell/earrings", title: "Earrings" },
-    { href: "/what-we-sell/engagement-rings", title: "Engagement Rings" },
-    { href: "/what-we-sell/chains", title: "Chains" },
-    { href: "/what-we-sell/pendants", title: "Pendants" },
-    { href: "/what-we-sell/watches", title: "Watches" },
+   {
+      href: "/rare-coins-collection",
+      title: "Rare Coins & Collections",
+    },
+     {
+      href: "/gold-silver-platinum",
+      title: "Gold, Silver, Platinum",
+    },
+    { href: "/estate-jewelry", title: "Estate Jewelry" },
     {
-      href: "/what-we-sell/vintage-platinum-jewelry",
+      href: "/diamond",
+      title: "Lab Grown Diamond",
+    },
+    { href: "/diamond-jewelry", title: "Lab Diamond Jewelry" },
+    { href: "/watches", title: "Watches " },
+   
+
+    {
+      href: "/vintage-platinum-jewelry",
       title: "Vintage Platinum Jewelry",
     },
   ];
 
   const whatWeBuyDropDownList = [
-    {
-      href: "/what-we-buy/gold-silver-platinum",
-      title: "Gold, Silver, Platinum",
-    },
-    {
-      href: "/what-we-buy/diamond",
-      title: "Diamonds",
-    },
-    { href: "/what-we-buy/watches", title: "Watches / Fine Watches" },
-    { href: "/what-we-buy/diamond-jewelry", title: "Diamond Jewelry" },
-    { href: "/what-we-buy/estate-jewelry", title: "Estate Jewelry" },
-    {
-      href: "/what-we-buy/vintage-platinum-jewelry",
-      title: "Vintage Platinum Jewelry",
-    },
-    {
-      href: "/what-we-buy/rare-coins-collection",
+     {
+      href: "/rare-coins-collection",
       title: "Rare Coins & Collections",
     },
+    {
+      href: "/gold-silver-platinum",
+      title: "Gold, Silver, Platinum",
+    },
+    { href: "/estate-jewelry", title: "Estate Jewelry" },
+    {
+      href: "/diamond",
+      title: "Lab Grown Diamond",
+    },
+    { href: "/diamond-jewelry", title: "Lab Diamond Jewelry" },
+   
+    { href: "/watches", title: "Watches " },
+    {
+      href: "/vintage-platinum-jewelry",
+      title: "Vintage Platinum Jewelry",
+    },
+   
   ];
 
   const menuList = [
