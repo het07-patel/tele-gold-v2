@@ -41,22 +41,19 @@ const DropDown = ({ title, menuList, isDropDownOpen, setIsDropDownOpen }) => {
   useClickOutside(menuRef, () => setIsDropDownOpen(false));
 
   return (
-    <div className="relative w-auto flex justify-center" ref={menuRef}>
-      <HeaderLinkButton
-        activeItem={activeItem}
-        onClick={() => {
-          handleDropDownToggle();
-        }}
-      >
-        <div className={`gap-1.5 flex items-center`}>
-          {title}{" "}
-          {isDropDownOpen ? (
-            <IoIosArrowUp size={20} />
-          ) : (
-            <IoIosArrowDown size={20} />
-          )}
-        </div>
-      </HeaderLinkButton>
+  <div className="relative w-auto flex justify-center" ref={menuRef}>
+    <HeaderLinkButton
+      onClick={handleDropDownToggle}
+      className="hover:text-gray-400">
+      <div className="gap-1.5 flex items-center">
+        {title}
+        {isDropDownOpen ? (
+          <IoIosArrowUp size={20} />
+        ) : (
+          <IoIosArrowDown size={20} />
+        )}
+      </div>
+    </HeaderLinkButton>
 
       <div
         className={`absolute z-40  top-[160%] w-[90%]  md:w-[50%] lg:w-[220px] 2xl:w-[265px]  rounded-lg bg-white p-2 shadow-[rgba(99,99,99,0.2)_0_1px_6px_0] ${
