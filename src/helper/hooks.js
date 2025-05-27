@@ -2,16 +2,21 @@
 import { useEffect, useState } from "react";
 import { messageType } from "@/utils/lib";
 export const useClickOutside = (ref, callback) => {
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (ref.current && !ref.current.contains(event.target)) {
-        callback();
-      }
-    };
+  const handleClick = (e) => {
+    // Check if the click is inside the ref or a link within the dropdown
+    if (
+      ref.current &&
+      !ref.current.contains(e.target) &&
+      !e.target.closest("a") // Ignore clicks on <a> elements
+    ) {
+      callback();
+    }
+  };
 
-    document.addEventListener("mousedown", handleClickOutside);
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClick);
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("mousedown", handleClick);
     };
   }, [ref, callback]);
 };
