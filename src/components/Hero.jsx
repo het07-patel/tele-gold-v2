@@ -77,12 +77,13 @@ const Hero = ({
             />
           </div>
           <div className="container absolute inset-0 flex items-center justify-center z-40">
-            <h1 className="text-white flex flex-col text-5xl md:text-7xl lg:text-[100px] 2xl:text-[150px] uppercase font-bold leading-[110.00000000000001%]">
-              <span>Discover</span>
-              <span>the Brilliance of</span>
-              <span className="md:text-center">Lab-Grown </span>
-              <span>Diamonds</span>
-            </h1>
+            <h1 className="text-white flex flex-col text-4xl md:text-8xl lg:text-[100px] 2xl:text-[130px] uppercase font-bold leading-tight">
+  <span>Discover</span>
+  <span>the Brilliance of</span>
+  <span className="md:text-center">Lab-Grown </span>
+  <span>Diamonds</span>
+</h1>
+
           </div>
         </div>
       ) : null}

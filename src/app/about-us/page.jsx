@@ -102,7 +102,7 @@ export default function AboutUs() {
 
       <section className="mt-10 md:mt-14 xl:mt-16 2xl:mt-36">
         <div className="lg:hidden flex justify-center text-center md:pt-8 pt-4 px-2">
-          <h2 className="text-3xl md:text-5xl font-belleza  leading-normal">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-belleza leading-normal">
             Why Choose Tele Gold Jewelers
           </h2>
         </div>
