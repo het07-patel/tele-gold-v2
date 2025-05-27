@@ -28,7 +28,7 @@ const animatedContent = [
     altAttr: " ",
     titleAttr: "",
     description: [
-      "At the heart of our business is a commitment to delivering an exceptional experience rooted in trust, transparency, and professionalism. Whether you’re buying, selling, or seeking an appraisal, we ensure fair pricing, clear communication, and personalized service every step of the way. Our goal is to build lasting relationships by offering real value, expert advice, and a seamless process that meets your unique needs.",
+      "At TeleGold, we treat every customer with transparency and respect. Whether you're buying or selling, our promise is simple: honest evaluations, fair market prices, and unmatched service. With decades of experience, we’re committed to making your experience smooth, rewarding, and built on trust from start to finish.",
     ],
 
     direction: "LTF",
@@ -40,7 +40,7 @@ const timelineItems = [
     no: 1,
     title: "Trusted Experience",
     description:
-      "With over 30 years in business and 35+ years of combined expertise, we bring deep knowledge and professionalism to every transaction.",
+    "With over 50 years in the industry, our expertise ensures confidence in every transaction. We’re trusted by collectors and sellers alike for our knowledge, integrity, and consistent, reliable service."
   },
   {
     no: 2,
@@ -67,7 +67,7 @@ export default function AboutUs() {
     <>
       <section>
         <Hero
-          title="Commitment of Quality, Transparency, and Service"
+          title="Crafting Connections Through Timeless Treasures"
           imageSrc={heroAboutUs}
           textAlignment="center"
           titleAttr=""
@@ -78,8 +78,8 @@ export default function AboutUs() {
       <section className="relative mt-10 md:mt-14 xl:mt-16 2xl:mt-36">
         <div className="flex items-start justify-center">
           <HeadingTitle
-            sectionName="A Legacy of Excellence in Jewelry & Collectibles"
-            description="With over 30 years of industry experience and 35+ years of combined jewelry and coin expertise, we specialize in buying and selling diamonds, gold, silver, coins, paper currency, and fine estate items. Built on a foundation of honesty, transparency, and exceptional service, we are dedicated to providing every client with expert guidance, fair appraisals, and a seamless, rewarding experience that ensures the best value for their precious items."
+            sectionName="Timeless Excellence in Coins and Jewelry"
+            description="Since 1981, TeleGold Jewelry & Coin has been a trusted destination for buying and selling coins, gold, silver, estate jewelry, and lab-grown diamond pieces. With over four decades of experience, we’re known for our honest service, fair pricing, and deep industry knowledge. Whether you're a seasoned collector or exploring your first sale, we’re here to guide you with care and professionalism. Our commitment to quality and trust has made us a lasting name in the community and beyond."
           />
         </div>
         <div className="2xl:pt-20 lg:pt-14 md:pt-8 pt-4">
@@ -135,14 +135,11 @@ export default function AboutUs() {
                 Our Mission
               </h2>
               <p className="text-md md:text-lg lg:text-lg 2xl:text-[24px] leading-relaxed">
-                Our mission is to create a trustworthy and seamless experience
-                for every client. Whether you’re selling gold, diamonds, coins,
-                or estate jewelry, we are dedicated to offering honest
-                appraisals, fair prices, and personalized guidance. By combining
-                our deep industry knowledge with a customer-first approach, we
-                aim to build enduring connections and ensure that every
-                transaction reflects our commitment to integrity,
-                professionalism, and maximum value.
+                Our mission is to make every transaction simple, secure, and rewarding.
+                Whether you’re selling rare coins, gold, silver, estate jewelry, or lab-grown diamonds, 
+                we offer honest evaluations, fair pricing, and expert guidance. 
+                We strive to build lasting relationships through trust, transparency, 
+                and personalized service—ensuring every client feels confident, valued, and supported from start to finish.
               </p>
             </div>
 

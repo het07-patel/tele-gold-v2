@@ -22,8 +22,8 @@ const animatedContent = [
     titleAttr: "",
     altAttr: "",
     description: [
-      "If you own luxury or antique watches and are looking to sell them, you deserve a process that’s simple, transparent, and rewarding. Whether it’s a timeless vintage piece, a high-end luxury brand, or a rare collector’s item, your timepiece holds significant value. By choosing to sell your watch with us, you can unlock that value with ease while enjoying a hassle-free experience that prioritizes your satisfaction.",
-      "Our experts understand the artistry, craftsmanship, and unique history behind fine watches. We evaluate every timepiece carefully, offering competitive prices that reflect its true worth. From iconic brands like Rolex and Patek Philippe to antique heirlooms, we’re dedicated to helping you get the best return for your watch. Trust us to turn your luxury or antique watch into instant cash, while ensuring a seamless, professional selling experience.",
+      "Whether you’re looking to sell a treasured timepiece or invest in a luxury watch, we offer a trusted, transparent, and rewarding experience. From rare collector’s pieces to iconic brands like Rolex and Patek Philippe, we understand the value, craftsmanship, and history behind every watch.",
+      "Our experts provide accurate evaluations and fair, market-based offers for sellers, while helping buyers discover authentic, high-quality watches with confidence. Whether you’re parting with an heirloom or adding to your collection, our seamless process ensures you get the value and service you deserve.",
     ],
 
     direction: "RTF",
@@ -35,7 +35,7 @@ export default function Watches() {
     <>
       <section>
         <Hero
-          title="Unlock Value for Your Luxury Watches and Fine Timepieces"
+          title="Explore, Buy, or Sell Premium Watches Today"
           imageSrc={heroCoin}
           textAlignment="center"
           titleAttr=""
@@ -62,7 +62,7 @@ export default function Watches() {
       </section>
 
       <section className="pt-10 md:pt-14 xl:pt-16 2xl:pt-36">
-        <HeadingTitle sectionName="Sell Your Luxury and Antique Watches with Confidence" />
+        <HeadingTitle sectionName="Trading Timepieces with Trust and Precision" />
         <div className="container  pt-4 md:pt-8 lg:pt-14 2xl:pt-20">
           <AnimatedSection {...animatedContent[0]} />
         </div>
@@ -76,7 +76,7 @@ export default function Watches() {
         <div>
           <HeadingTitle
             sectionName="Vintage and Antique Pocket Watches"
-            description=" Selling your vintage or antique pocket watch has never been easier. We offer professional evaluations and instant payouts."
+            description="Whether you're looking to buy a timeless piece or sell a treasured heirloom, we make the process seamless. Our experts provide accurate evaluations, fair market prices, and a trusted experience for collectors and sellers alike."
           />
         </div>
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-6 items-start pt-4 md:pt-8 lg:pt-14 2xl:pt-20">
@@ -90,11 +90,10 @@ export default function Watches() {
               />
             </div>
             <p className="mt-4 md:text-md lg:text-lg 2xl:text-[24px] leading-relaxed pt-6">
-              Our experts carefully assess your pocket watch based on its
-              condition, rarity, and craftsmanship to offer you the best
-              possible value. Whether it's a classic heirloom or a rare
-              collector’s item, we ensure a transparent, fair process. Trust us
-              to help you unlock the true worth of your timeless treasure.
+              Our experts carefully assess each pocket watch based on condition, rarity,
+               and craftsmanship—whether you're looking to sell a cherished heirloom or purchase a unique collector’s piece. 
+               We offer fair market evaluations, transparent pricing, and a smooth, trustworthy experience. 
+              From classic antiques to rare finds, we’re here to help you unlock and preserve the value of your timeless treasures.
             </p>
           </div>
 
@@ -178,17 +177,14 @@ export default function Watches() {
               We’re Here to Help You Every Step of the Way
             </h2>
             <p className=" md:text-md lg:text-lg 2xl:text-[24px] leading-relaxed">
-              Selling or buying a luxury watch can be overwhelming, but we’re
-              here to make the process easy and stress-free. Our knowledgeable
-              team is ready to guide you with expert advice, transparent
-              evaluations, and fair offers.
+              Buying or selling a luxury watch doesn’t have to be complicated. 
+              Our experienced team is here to make the process smooth, transparent, and rewarding.
+              We provide honest evaluations, expert guidance, and competitive offers—ensuring you always feel confident in your decision.
             </p>
             <p className=" md:text-md lg:text-lg 2xl:text-[24px] pt-6">
-              Whether you’re looking to sell a high-end timepiece or purchase a
-              fine luxury watch, we’re committed to providing you with
-              exceptional service. From answering your questions to evaluating
-              your watch’s value, we ensure a smooth and trustworthy experience
-              tailored to your needs."
+              Whether you're parting with a cherished timepiece or searching for your next investment watch,
+              we’re committed to delivering exceptional service from start to finish.
+              Your satisfaction is our priority.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4 items-end">

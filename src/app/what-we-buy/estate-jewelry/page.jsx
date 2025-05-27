@@ -25,8 +25,8 @@ const animatedContent = [
     titleAttr: "",
     altAttr: "",
     description: [
-      "The value of estate diamond jewelry is deeply tied to its age, origin, and historical significance. Older pieces from iconic eras such as the Victorian, Art Deco, or Edwardian periods often showcase distinctive design elements and exceptional craftsmanship that highlight the artistry of their time.",
-      "In addition to its age and style, the provenance of estate jewelry plays a crucial role in determining its value. Details about its maker, previous ownership, and any unique hallmarks can enhance its authenticity and appeal. These factors help both collectors and sellers accurately assess its worth and significance.",
+      "The value of estate diamond jewelry is closely tied to its age, origin, and historical significance. Pieces from iconic eras like Victorian, Art Deco, or Edwardian showcase unique design and craftsmanship that make them highly desirable.",
+      "Whether you’re buying or selling, understanding the provenance—including the maker, previous owners, and unique hallmarks—helps ensure authenticity and accurate valuation. These factors are essential for collectors and sellers to assess true worth and significance.",
     ],
 
     direction: "LTF",
@@ -71,7 +71,7 @@ export default function EstateJewelry() {
     <>
       <section>
         <Hero
-          title="Turn Your Estate Diamond Jewelry into Instant Value"
+          title="Trusted Place to Buy and Sell Estate Diamond Jewelry"
           imageSrc={heroCoin}
           textAlignment="center"
           titleAttr=""
@@ -89,9 +89,10 @@ export default function EstateJewelry() {
 
           <div className="max-w-2xl  mt-0 ml-[10%] 2xl:ml-[30%] hidden lg:block">
             <p className=" text-lg 2xl:text-[24px]">
-              Estate diamond jewelry holds timeless charm and unique character,
-              often featuring intricate designs and high-quality craftsmanship,
-              making each piece a valuable treasure with a story to tell.
+              Estate diamond jewelry combines timeless charm with exceptional craftsmanship.
+               Whether you’re buying a unique, story-filled piece or selling your treasured jewelry, 
+               each item offers lasting value and beauty.
+               Experience trusted service and fair prices in every transaction.
             </p>
           </div>
         </div>
@@ -131,18 +132,18 @@ export default function EstateJewelry() {
       </section>
 
       <section className="container pt-10 md:pt-14 xl:pt-16 2xl:pt-36">
-        <div className="2xl:translate-y-[15%]">
-          <p className="font-belleza text-3xl md:text-6xl lg:text-8xl xl:text-8xl 3xl:text-[180px] text-[#1513131A] uppercase lg:tracking-wider">
+        <div className="4xl:translate-y-[15%]">
+          <p className="font-belleza text-3xl md:text-6xl lg:text-8xl xl:text-8xl 4xl:text-[180px] text-[#1513131A] uppercase lg:tracking-wider">
             Unique Jewelry
           </p>
         </div>
-        <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 items-start   ">
-          <div className="md:relative flex  bottom-[-10%] lg:bottom-[0%] 2xl:bottom-[-10%]">
+        <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+          <div className="md:relative flex  bottom-[-10%] lg:bottom-[0%] 4xl:bottom-[-10%]">
             <CustomImage
               srcAttr={estate3}
               titleAttr=""
               altAttr=""
-              className="w-[100%] 2xl:!w-[68%] 3xl:h-[550px] object-cover "
+              className="w-[100%] 4xl:!w-[68%] 4xl:h-[550px] object-cover"
             />
           </div>
           <div>
@@ -155,10 +156,13 @@ export default function EstateJewelry() {
               />
             </div>
             <p className="mt-4 md:text-md lg:text-lg 2xl:text-[28px] leading-relaxed pt-6">
-              Discover the timeless elegance of estate diamond jewelry, where
-              history meets luxury. Whether you're buying, selling, or
-              exploring, our expertise ensures that each piece is appreciated
-              for its true value and beauty.
+              Unique jewelry stands out for its one-of-a-kind designs and exceptional craftsmanship.
+              Each piece tells a story, reflecting individuality and personal style that can’t be found in mass-produced items. 
+              Whether vintage or modern, unique jewelry captures attention and becomes a treasured part of your collection.
+            </p>
+             <p className="mt-4 md:text-md lg:text-lg 2xl:text-[28px] leading-relaxed pt-6">
+              At Tele Gold Jewelers, we offer a curated selection of rare and distinctive pieces.
+               Whether you’re buying or selling, our experts ensure you connect with jewelry that’s truly special and valuable.
             </p>
           </div>
         </div>

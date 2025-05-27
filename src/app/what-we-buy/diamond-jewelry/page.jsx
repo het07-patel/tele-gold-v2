@@ -28,9 +28,9 @@ const animatedContent = [
     titleAttr: "",
     altAttr: "",
     description: [
-      "Selling diamond jewelry can be a rewarding process, but it’s essential to be informed about the factors that influence its value. The 4Cs—carat, cut, clarity, and color—are critical aspects that buyers consider when evaluating a diamond’s worth. A well-maintained, certified diamond typically holds more value in the resale market, especially when it comes with documents like grading reports from trusted gemological labs.",
-      "Another important consideration is the overall condition and craftsmanship of the jewelry. Diamonds set in vintage or designer pieces may carry additional value due to their unique design, era, or brand. Checking for any wear and tear, ensuring the metal and setting are intact, and polishing the piece before selling can also enhance its appeal.",
-      " Lastly, keep an eye on current market trends. Diamond prices can fluctuate, and understanding whether it's a seller’s market can make a difference. Working with reputable buyers who offer transparent appraisals will help you get a fair and competitive offer. Being informed and strategic will ensure that you make the best decision when selling your diamond jewelry.",
+      "Whether you're looking to buy or sell diamond jewelry, understanding what impacts its value is essential. The 4Cs—carat, cut, clarity, and color—are the foundation of a diamond's quality and are crucial for both buyers and sellers. Certified diamonds, especially those with documentation from reputable gemological labs, are more desirable in the market and tend to retain better value.",
+      "For sellers, the condition and craftsmanship of the jewelry—especially vintage or designer pieces—can significantly enhance resale potential. For buyers, these elements add character, history, and uniqueness. Always evaluate the setting, metal quality, and overall design integrity. Well-maintained jewelry appeals more to buyers and commands higher offers from sellers.",
+      "Finally, market trends matter. Diamond prices can fluctuate, so timing and partnering with a trusted jeweler offering transparent evaluations can make all the difference. Whether you're buying a special piece or selling a cherished item, knowledge and trust are key to a successful experience.",
     ],
 
     direction: "RTF",
@@ -40,8 +40,8 @@ const animatedContent = [
     titleAttr: "",
     altAttr: "",
     description: [
-      "When selling your diamond jewelry, several key factors determine its value. The 4Cs – Carat weight, Color, Clarity, and Cut – play a significant role. Larger, well-cut diamonds with high clarity often attract better offers. The type of metal, like platinum or 18K gold, and the craftsmanship also influence its worth.",
-      "In addition, unique or vintage designs and rare settings can further enhance a piece's desirability. Market trends, fluctuating gold and diamond prices, and authenticity certificates are also critical in appraising value. Understanding these aspects helps you secure the best deal when selling your diamond jewelry.",
+      "Whether you're buying or selling diamond jewelry, understanding what drives its value is essential. The 4Cs—Carat weight, Color, Clarity, and Cut—remain the cornerstone of diamond evaluation. Larger, well-cut diamonds with higher clarity typically command more attention and worth.",
+      "The type of metal (such as platinum or 18K gold), craftsmanship, and uniqueness of design also impact value. Vintage pieces and rare settings can add desirability, while certifications and market conditions ensure fair pricing. Knowledge of these factors leads to confident, informed decisions on both sides of the transaction.",
     ],
 
     direction: "LTF",
@@ -105,7 +105,7 @@ export default function VintagePlatinumJewelry() {
             The secret to
           </h2>
 
-          <h2 className="text-4xl  md:text-5xl  2xl:text-9xl leading-tight flex items-center gap-3 font-belleza flex-wrap  md:gap-3">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-9xl leading-tight flex items-center gap-3 font-belleza flex-wrap  md:gap-3">
             effortless{" "}
             <span className="inline-block transform rotate-[-6deg] px-4">
               <CustomImage
@@ -119,7 +119,7 @@ export default function VintagePlatinumJewelry() {
           </h2>
         </div>
         <div className="md:translate-x-[60%] pt-4 ">
-          <p className="md:w-[50%] lg:w-[45%] 2xl:w-[40%] text-xl 2xl:text-[22px]">
+          <p className="md:w-[50%] lg:w-[45%] xl:w-[40%] 2xl:w-[40%] text-xl 2xl:text-[22px]">
             Effortless glamour is about timeless elegance and subtle brilliance.
             It enhances your natural beauty, creating a balance between
             simplicity and luxury, so you can shine confidently and effortlessly
@@ -139,7 +139,7 @@ export default function VintagePlatinumJewelry() {
 
       <section className="pt-10 md:pt-14 xl:pt-16 2xl:pt-36">
         <div>
-          <HeadingTitle sectionName="Key Considerations When Selling Diamond Jewelry" />
+          <HeadingTitle sectionName="Key Considerations When Buying or Selling Diamond Jewelry" />
         </div>
         <div className="container  pt-4 md:pt-8 lg:pt-14 2xl:pt-20 ">
           <AnimatedSection {...animatedContent[0]} />
@@ -148,8 +148,8 @@ export default function VintagePlatinumJewelry() {
 
       <section className="pt-10 md:pt-14 xl:pt-16 2xl:pt-36 ">
         <TwoImagesAndCenterText
-          title="Maximize Your Diamond Jewelry’s Value"
-          description="Selling diamond jewelry requires preparation. Gather documents like certifications, assess market trends, and choose a reputable buyer. These steps help you secure the best possible value for your piece."
+          title="Maximize Value When Buying or Selling Diamond Jewelry"
+          description="Whether you're buying or selling diamond jewelry, understanding what drives its value is essential. The 4Cs—Carat weight, Color, Clarity, and Cut—remain the cornerstone of diamond evaluation. Larger, well-cut diamonds with higher clarity typically command more attention and worth."
           leftImage={diamondJewelry5}
           rightImage={diamondJewelry6}
           svgImage={whiteCircle}

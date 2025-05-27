@@ -82,14 +82,14 @@ const collectionCategory = [{
 export default function Home() {
   return (
     <>
-      <Hero videoSrc={"/videos/homeHero.mp4"} title={"Discover the Allure of Rare & Unique Estate Jewelry"} description={"Discover an exceptional collection of estate jewelry, dazzling diamonds, rare coins, and luxury watches. Experience elegance, value, and timeless craftsmanship with us."} isHomePage={true} />
+      <Hero videoSrc={"/videos/homeHero.mp4"} title={"Buy & Sell Coins, Gold, Silver, Estate Jewelry & Lab Diamond Jewelry"} description={"Specializing in rare coins, we also buy and sell gold, silver, estate jewelry, and lab-grown diamond jewelry. Count on us for honest service, top value, and expert knowledge."} isHomePage={true} />
       <section className="container pt-10 md:pt-14 xl:pt-24 2xl:pt-36 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 place-items-center">
           <div className="leading-relaxed text-black">
-            <h3 className="text-4xl md:text-5xl  lg:text-6xl 2xl:text-[80px] font-belleza">Welcome to TeleGold Jewelry Store
+            <h3 className="text-4xl md:text-5xl  lg:text-6xl 2xl:text-[80px] font-belleza">Welcome to TeleGold Jewelry & Coin
             </h3>
             <div className=" lg:w-[90%] 2xl:w-[80%]">
-              <p className="md:text-md lg:text-lg lg:text-start 2xl:text-[24px] my-10 lg:my-20">Explore unique estate jewelry, rare coins, dazzling diamonds, and luxury watches that reflect timeless beauty and craftsmanship.</p>
+              <p className="md:text-md lg:text-lg lg:text-start 2xl:text-[24px] my-10 lg:my-20">Explore rare and valuable coins, fine gold and silver, elegant estate jewelry, and sparkling lab-grown diamond pieces — all chosen for their lasting beauty and value.</p>
             </div>
             <LinkButton
               href="#"
@@ -130,7 +130,7 @@ export default function Home() {
         </div>
       </section>
       <section className="pt-10 md:pt-14 xl:pt-24 2xl:pt-36">
-        <HeadingTitle sectionName="SHOP BY CATEGORY" description="Find rare estate jewelry, luxury watches, fine diamonds, and collectible coins, carefully curated for elegance, value, and timeless style." />
+        <HeadingTitle sectionName="Our Expertise" description="We specialize in coins, Morgan Coins & silver dollars, and rare collectibles — backed by over 50 years of trusted experience in professional coin collecting." />
 
         <ScrollImageSection />
       </section >
@@ -142,8 +142,8 @@ export default function Home() {
           </div>
           <div className="my-6 lg:my-0 lg:w-1/2 z-40 text-primary">
             <h5 className="text-lg font-semibold">ABOUT US</h5>
-            <h2 className="font-belleza text-2xl lg:text-5xl my-4 uppercase">Our unwavering passion for jewelry drives us to pioneer and deliver exceptional experiences and lasting value to our clients.</h2>
-            <p className="md:text-md lg:text-lg  2xl:text-[24px]">Fueled by our love for fine jewelry, we aim to create a remarkable experience for our clients. By blending timeless craftsmanship with innovation, we deliver exceptional value and curate pieces that capture elegance, beauty, and individuality.</p>
+            <h2 className="font-belleza text-2xl lg:text-5xl my-4 uppercase">Since 1981, we’ve been a trusted name in buying and selling coins, gold, silver, estate jewelry, and lab-grown diamond jewelry—offering expert guidance, fair prices, and personalized service for every customer.</h2>
+            <p className="md:text-md lg:text-lg  2xl:text-[24px]">We take pride in our deep industry knowledge and commitment to integrity. Whether you're a seasoned collector or first-time seller, our goal is to provide a seamless, transparent, and rewarding experience every step of the way.</p>
             <div className="flex justify-center">  <LinkButton
               href="/about-us"
               roundedArrow={true}
@@ -179,10 +179,10 @@ export default function Home() {
         <div className="w-full flex flex-col lg:flex-row justify-between gap-5">
           <div className="lg:w-[60%]">
             <div className="flex flex-col justify-between h-full">
-              <h3 className="text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl font-belleza lg:w-[90%] text-black">Embrace the Beauty of Minimalist Elegance</h3>
+              <h3 className="text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl font-belleza lg:w-[90%] text-black">Discover Unique Vintage and Estate Jewelry</h3>
               <div>
                 <p className="lg:w-[60%] md:text-md lg:text-lg lg:text-start 2xl:text-[24px] py-4 lg:py-0">
-                  Step into the world of minimalist fashion, where clean lines, subtle designs, and timeless elegance create a refined, effortless style that speaks volumes without saying too much.
+                  Explore a handpicked selection of vintage and estate jewelry, each piece rich with history, character, and timeless charm. From antique rings to elegant necklaces, find jewelry that’s truly one-of-a-kind and full of meaning.
                 </p>
                 <div className="grid grid-cols-3 mt-6 gap-3 lg:gap-5">
                   {collectionCategory.map((category, index) => {

@@ -2,11 +2,11 @@ import { WebsiteUrl } from "@/utils/environments";
 import { generateMetadata } from "@/utils/metaConfig";
 
 const META_TITLE =
-  "Sell Your Watches and Fine Timepieces – Get Instant Cash Today";
+  "Buy or Sell Watches and Fine Timepieces – Get Instant Cash Today";
 const META_DESCRIPTION =
-  "Sell your luxury watches and fine timepieces with ease. We buy high-end brands like Rolex, Omega, Patek Philippe, and more. Get competitive prices, instant cash offers, and a hassle-free selling experience.";
+  "Buy or sell luxury watches like Rolex, Omega, and more. Get accurate valuations, fair prices, and a smooth experience from trusted watch specialists.";
 const META_KEYWORDS =
-  "sell watches, sell fine watches, sell luxury watches, sell Rolex, buy fine watches, sell Omega, instant cash for watches, sell timepieces, luxury watch buyer, fine watch buyer, watch resale, high-end watch selling";
+  "buy watches, sell watches, Rolex buyers, Omega buyers, luxury watch buyers, fine watches, timepiece dealers, watch appraisal, watch resale, high-end watches";
 const CANONICAL_URL = `${WebsiteUrl}/what-we-buy/watches`;
 
 export const metadata = generateMetadata({

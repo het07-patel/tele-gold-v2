@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import heroCoin from "@/assets/images/hero-coins.webp";
+import heroRareCoin from "@/assets/images/what-we-buy/rare-coins/hero-rarecoins.webp";
 import coin1 from "@/assets/images/what-we-buy/rare-coins/coins-1.webp";
 import coin2 from "@/assets/images/what-we-buy/rare-coins/coins-2.webp";
 import coin3 from "@/assets/images/what-we-buy/rare-coins/coins-3.webp";
@@ -80,8 +80,8 @@ export default function RareCoinsCollection() {
     <>
       <section>
         <Hero
-          title="Expert Appraisals for Rare Coins and Unique Collectibles"
-          imageSrc={heroCoin}
+          title="Explore, Buy, or Sell Rare Coins Today"
+          imageSrc={heroRareCoin}
           textAlignment="center"
           titleAttr=""
           altAttr=""
@@ -91,8 +91,8 @@ export default function RareCoinsCollection() {
       <section>
         <FallingCoins
           coins={[coin1, coin2, coin3]}
-          marqueeText="WE BUY • RARE COINS & COLLECTIBLES • WE BUY"
-          description="Unlock the hidden value of your rare coins and collectibles with our expert appraisals. Whether it's gold coins, vintage currency, or unique collectibles, we offer fair, transparent evaluations to help you get the best price."
+          marqueeText="WE BUY & SELL • RARE COINS & COLLECTIBLES • WE BUY & SELL"
+          description="Discover the true worth of your rare coins with our trusted expertise. Whether you're buying or selling, we provide accurate evaluations, competitive offers, and a seamless experience backed by decades of numismatic knowledge."
         />
       </section>
 
@@ -109,7 +109,7 @@ export default function RareCoinsCollection() {
           <div>
             <TwoImagesAndCenterText
               title="Accurate Appraisals for Rare Coins & Collectibles"
-              description="Selling rare coins and collectibles requires understanding their true worth. Our experts assess each item’s age, rarity, and condition to ensure a fair, transparent appraisal. With competitive, market-based offers and a hassle-free process, we’re here to help you sell confidently—whether parting with a cherished collection or liquidating valuable coins."
+              description="Whether you're looking to sell or expand your collection, our experts provide accurate, transparent appraisals based on age, rarity, and condition. We offer competitive market-based prices and a smooth, honest process. From cherished heirlooms to valuable finds, we help you buy or sell rare coins and collectibles with confidence."
               leftImage={coin4}
               rightImage={coin5}
               leftTitleAttr=""
