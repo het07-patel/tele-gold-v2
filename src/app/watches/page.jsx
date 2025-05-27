@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import heroCoin from "@/assets/images/hero-coins.webp";
+import heroWatches from "@/assets/images/what-we-buy/watches/home-watches.webp";
 import watches1 from "@/assets/images/what-we-buy/watches/watches-1.webp";
 import watches2 from "@/assets/images/what-we-buy/watches/watches-2.webp";
 import watches3 from "@/assets/images/what-we-buy/watches/watches-3.webp";
@@ -36,7 +36,7 @@ export default function Watches() {
       <section>
         <Hero
           title="Explore, Buy, or Sell Premium Watches Today"
-          imageSrc={heroCoin}
+          imageSrc={heroWatches}
           textAlignment="center"
           titleAttr=""
           altAttr=""

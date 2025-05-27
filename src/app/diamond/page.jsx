@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import heroCoin from "@/assets/images/hero-coins.webp";
+import heroDiamond from "@/assets/images/what-we-buy/diamond/home-diamond.webp";
 import DiamondCard from "@/components/DiamondCard";
 import HeadingTitle from "@/components/HeadingTitle";
 import diamondAsscher from "@/assets/images/what-we-buy/diamond/diamond-asscher.webp";
@@ -123,7 +123,7 @@ export default function Diamond() {
       <section>
         <Hero
           title="Turn Your Diamonds into Instant Cash"
-          imageSrc={heroCoin}
+          imageSrc={heroDiamond}
           textAlignment="center"
           titleAttr=""
           altAttr=""
