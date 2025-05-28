@@ -92,7 +92,7 @@ const Hero = ({
             />
           </div>
           <div className="container absolute inset-0 flex items-center justify-center z-40">
-            <h1 className="text-white flex flex-col text-4xl md:text-8xl lg:text-[100px] 2xl:text-[130px] uppercase font-bold leading-tight">
+            <h1 className="text-white pt-8 flex flex-col text-4xl md:text-8xl lg:text-[100px] 2xl:text-[130px] uppercase font-bold leading-tight">
   <span>Discover</span>
   <span>the Brilliance of</span>
   <span className="md:text-center">Lab-Grown </span>

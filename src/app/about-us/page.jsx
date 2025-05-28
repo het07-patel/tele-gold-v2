@@ -2,6 +2,7 @@
 import Hero from "@/components/Hero";
 import heroAboutUs from "@/assets/images/hero-aboutus.webp";
 import HeadingTitle from "@/components/HeadingTitle";
+import Link from "next/link";
 import {
   AnimatedCircleText,
   AnimatedSection,
@@ -19,7 +20,7 @@ import rightArrowGrey from "@/assets/images/icons/right-arrow-grey.svg";
 import purity from "@/assets/images/icons/grey-purity.svg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import { Link as LinkIcon } from "lucide-react";
 gsap.registerPlugin(ScrollTrigger);
 
 const animatedContent = [
@@ -40,7 +41,7 @@ const timelineItems = [
     no: 1,
     title: "Trusted Experience",
     description:
-    "With over 50 years in the industry, our expertise ensures confidence in every transaction. We’re trusted by collectors and sellers alike for our knowledge, integrity, and consistent, reliable service."
+    "With over 50 years in the industry, our expertise ensures confidence in every transaction."
   },
   {
     no: 2,
@@ -79,7 +80,7 @@ export default function AboutUs() {
         <div className="flex items-start justify-center">
           <HeadingTitle
             sectionName="Timeless Excellence in Coins and Jewelry"
-            description="Since 1981, TeleGold Jewelry & Coin has been a trusted destination for buying and selling coins, gold, silver, estate jewelry, and lab-grown diamond pieces. With over four decades of experience, we’re known for our honest service, fair pricing, and deep industry knowledge. Whether you're a seasoned collector or exploring your first sale, we’re here to guide you with care and professionalism. Our commitment to quality and trust has made us a lasting name in the community and beyond."
+            description="Since the 1970s, TeleGold Jewelers has been a trusted destination for buying and selling coins, gold, silver, estate jewelry, and lab-grown diamond pieces. With over 50 years of experience, we’re known for our honest service, fair pricing, and deep industry knowledge. Whether you're a seasoned collector or exploring your first sale, we’re here to guide you with care and professionalism. Our commitment to quality and trust has made us a lasting name in the community and beyond."
           />
         </div>
         <div className="2xl:pt-20 lg:pt-14 md:pt-8 pt-4">
@@ -153,12 +154,14 @@ export default function AboutUs() {
             </div>
             <div className="hidden lg:block absolute lg:bottom-[-56%] xl:bottom-[-51%] 2xl:bottom-[-20%] left-[65%] lg:left-[56%] text-primary">
               <div className="flex items-center gap-6">
+                <Link  href="/contact-us">
                 <AnimatedCircleText
                   text="Shop Now • Shop Now • Shop Now • Shop Now • "
                   textColor="black"
                   arrowImage={rightArrowGrey}
                   purityImage={purity}
                 />
+                </Link>
               </div>
             </div>
           </div>

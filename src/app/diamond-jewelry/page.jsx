@@ -91,7 +91,7 @@ export default function VintagePlatinumJewelry() {
     <>
       <section>
         <Hero
-          title="Sell Your Diamond Jewelry with Ease and Confidence"
+          title="Buy Diamond Jewelry with Ease and Confidence"
           imageSrc={heroCoin}
           textAlignment="center"
           titleAttr=""

@@ -37,10 +37,6 @@ const Header = () => {
       title: "Gold, Silver, Platinum",
     },
     { href: "/estate-jewelry", title: "Estate Jewelry" },
-    {
-      href: "/diamond",
-      title: "Lab Grown Diamond",
-    },
     { href: "/diamond-jewelry", title: "Lab Diamond Jewelry" },
     { href: "/watches", title: "Watches " },
    
@@ -61,11 +57,6 @@ const Header = () => {
       title: "Gold, Silver, Platinum",
     },
     { href: "/estate-jewelry", title: "Estate Jewelry" },
-    {
-      href: "/diamond",
-      title: "Lab Grown Diamond",
-    },
-    { href: "/diamond-jewelry", title: "Lab Diamond Jewelry" },
    
     { href: "/watches", title: "Watches " },
     {
@@ -132,12 +123,12 @@ const Header = () => {
           ? "translate-y-0"
           : "-translate-y-[120px] xl:-translate-y-[140px]"
       } ${
-        isDynamicHeight
-          ? lastScrollY < 100
-            ? "bg-transparent"
-            : "bg-black"
-          : null
-      }`}
+    isDynamicHeight
+      ? lastScrollY < 100 && !isMenuOpen
+        ? "bg-black/70"
+        : ""
+      : null 
+  } `}
     >
       <div className="container">
         <div className="mx-auto flex gap-2 xxs:gap-3 xs:gap-4 items-center justify-between py-4 lg:py-3 2xl:py-6">

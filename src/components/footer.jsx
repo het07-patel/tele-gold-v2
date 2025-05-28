@@ -24,10 +24,6 @@ const whatWeBuyLinks = [
     url: "/estate-jewelry",
     name: "Estate Jewelry",
   },
-  {
-    url: "/diamond",
-    name: "Lab Grown Diamond",
-  },
   { url: "/diamond-jewelry", name: "Lab Diamond Jewelry" },
   { url: "/watches", name: "Watches" },
  {

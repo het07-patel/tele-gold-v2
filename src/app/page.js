@@ -22,10 +22,9 @@ import jewelryBoxDiamondRing from "@/assets/images/home/jewelry-box-diamond-ring
 import necklaceCloseup from "@/assets/images/home/necklace-closeup.webp"
 import handWithRing from "@/assets/images/home/hand-with-ring.webp"
 import diamondNecklaceWoman from "@/assets/images/home/diamond-necklace-woman.webp"
-import engagementRing from "@/assets/images/home/engagement-rings.webp"
 import HeadingTitle from "@/components/HeadingTitle"
 import Hero from "@/components/Hero"
-import Marquee from "@/components/Marquee"
+import Link from "next/link";
 
 const diamondShapes = [{
   title: "Round",
@@ -82,14 +81,28 @@ const collectionCategory = [{
 export default function Home() {
   return (
     <>
-      <Hero videoSrc={"/videos/homeHero.mp4"} title={"Buy & Sell Coins, Gold, Silver, Estate Jewelry & Lab Diamond Jewelry"} description={"Specializing in rare coins, we also buy and sell gold, silver, estate jewelry, and lab-grown diamond jewelry. Count on us for honest service, top value, and expert knowledge."} isHomePage={true} />
+      <Hero
+        videoSrc={"/videos/homeHero.mp4"}
+        title={
+          "Buy & Sell Coins, Gold, Silver, Estate Jewelry & Lab Diamond Jewelry"
+        }
+        description={
+          "Specializing in rare coins, we also buy and sell gold, silver, estate jewelry, and lab-grown diamond jewelry. Count on us for honest service, top value, and expert knowledge."
+        }
+        isHomePage={true}
+      />
       <section className="container pt-10 md:pt-14 xl:pt-24 2xl:pt-36 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 place-items-center">
           <div className="leading-relaxed text-black">
-            <h3 className="text-4xl md:text-5xl  lg:text-6xl 2xl:text-[80px] font-belleza">Welcome to TeleGold Jewelry & Coin
+            <h3 className="text-4xl md:text-5xl  lg:text-6xl 2xl:text-[80px] font-belleza">
+              Welcome to TeleGold Jewelry & Coin
             </h3>
             <div className=" lg:w-[90%] 2xl:w-[80%]">
-              <p className="md:text-md lg:text-lg lg:text-start 2xl:text-[24px] my-10 lg:my-20">Explore rare and valuable coins, fine gold and silver, elegant estate jewelry, and sparkling lab-grown diamond pieces — all chosen for their lasting beauty and value.</p>
+              <p className="md:text-md lg:text-lg lg:text-start 2xl:text-[24px] my-10 lg:my-20">
+                Explore rare and valuable coins, fine gold and silver, elegant
+                estate jewelry, and sparkling lab-grown diamond pieces — all
+                chosen for their lasting beauty and value.
+              </p>
             </div>
             <LinkButton
               href="#"
@@ -101,122 +114,157 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
             <div className="grid grid-rows-2 gap-6 md:gap-16 place-items-center ">
-              <div><CustomImage altAttr="" titleAttr="" srcAttr={silverLeafPendant} className="rounded-lg" />
+              <div>
+                <CustomImage
+                  altAttr=""
+                  titleAttr=""
+                  srcAttr={silverLeafPendant}
+                  className="rounded-lg"
+                />
               </div>
-              <div><CustomImage altAttr="" titleAttr="" srcAttr={diamondChainPendant} className="rounded-lg" /></div>
+              <div>
+                <CustomImage
+                  altAttr=""
+                  titleAttr=""
+                  srcAttr={diamondChainPendant}
+                  className="rounded-lg"
+                />
+              </div>
             </div>
             <div className="grid grid-rows-2 gap-6 place-items-center ">
-              <div><CustomImage altAttr="" titleAttr="" srcAttr={butterflyNecklace} className="rounded-lg" /></div>
-              <div><CustomImage altAttr="" titleAttr="" srcAttr={doubleLoopNecklace} className="rounded-lg" /></div>
+              <div>
+                <CustomImage
+                  altAttr=""
+                  titleAttr=""
+                  srcAttr={butterflyNecklace}
+                  className="rounded-lg"
+                />
+              </div>
+              <div>
+                <CustomImage
+                  altAttr=""
+                  titleAttr=""
+                  srcAttr={doubleLoopNecklace}
+                  className="rounded-lg"
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section className="container pt-10 md:pt-14 xl:pt-24 2xl:pt-36">
         <div className="text-center">
-          <CustomImage srcAttr={shopByShape} className="inline-block w-64 2xl:w-80" altAttr="" titleAttr="" />
+          <CustomImage
+            srcAttr={shopByShape}
+            className="inline-block w-64 2xl:w-80"
+            altAttr=""
+            titleAttr=""
+          />
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 my-10 gap-5 lg:gap-10">
           {diamondShapes.map((shape, index) => {
             return (
-              <div key={index} className="bg-white px-4 py-4 2xl:py-6 text-center rounded-lg">
-                <CustomImage altAttr={shape.altAttr} titleAttr={shape.titleAttr} className="inline-block" srcAttr={shape.shapeImg} />
-                <h3 className=" font-belleza italic text-xl">
-                  {shape.title}
-                </h3>
+              <div
+                key={index}
+                className="bg-white px-4 py-4 2xl:py-6 text-center rounded-lg"
+              >
+                <CustomImage
+                  altAttr={shape.altAttr}
+                  titleAttr={shape.titleAttr}
+                  className="inline-block"
+                  srcAttr={shape.shapeImg}
+                />
+                <h3 className=" font-belleza italic text-xl">{shape.title}</h3>
               </div>
             );
           })}
         </div>
       </section>
-      <section className="pt-10 md:pt-14 xl:pt-24 2xl:pt-36">
-        <HeadingTitle sectionName="Our Expertise" description="We specialize in coins, Morgan Coins & silver dollars, and rare collectibles — backed by over 50 years of trusted experience in professional coin collecting." />
+      <section className="pt-10 md:pt-14 xl:pt-24 2xl:pt-28">
+        <HeadingTitle
+          sectionName="Our Expertise"
+          description="We specialize in coins, Morgan Coins & silver dollars, and rare collectibles — backed by over 50 years of trusted experience in professional coin collecting."
+        />
 
         <ScrollImageSection />
-      </section >
+      </section>
       <section className="container lg:max-w-none pt-10 md:pt-14 xl:pt-24 2xl:pt-36 text-center ">
         <div className="flex flex-col items-center justify-center w-full lg:relative 2xl:h-[70vh]">
           <div className="lg:absolute lg:inset-0 flex  flex-col md:flex-row justify-between gap-6 lg:gap-0">
-            <CustomImage srcAttr={jewelryBoxDiamondRing} altAttr="" titleAttr="" className="w-screen lg:w-48 lg:h-48 2xl:w-60 2xl:h-60" />
-            <CustomImage srcAttr={necklaceCloseup} altAttr="" titleAttr="" className="w-screen lg:w-48 lg:h-48 2xl:w-60 2xl:h-60" />
+            <CustomImage
+              srcAttr={jewelryBoxDiamondRing}
+              altAttr=""
+              titleAttr=""
+              className="w-screen lg:w-48 lg:h-48 2xl:w-60 2xl:h-60"
+            />
+            <CustomImage
+              srcAttr={necklaceCloseup}
+              altAttr=""
+              titleAttr=""
+              className="w-screen lg:w-48 lg:h-48 2xl:w-60 2xl:h-60"
+            />
           </div>
           <div className="my-6 lg:my-0 lg:w-1/2 z-40 text-primary">
-            <h5 className="text-lg font-semibold">ABOUT US</h5>
-            <h2 className="font-belleza text-2xl lg:text-5xl my-4 uppercase">Since 1981, we’ve been a trusted name in buying and selling coins, gold, silver, estate jewelry, and lab-grown diamond jewelry—offering expert guidance, fair prices, and personalized service for every customer.</h2>
-            <p className="md:text-md lg:text-lg  2xl:text-[24px]">We take pride in our deep industry knowledge and commitment to integrity. Whether you're a seasoned collector or first-time seller, our goal is to provide a seamless, transparent, and rewarding experience every step of the way.</p>
-            <div className="flex justify-center">  <LinkButton
-              href="/about-us"
-              roundedArrow={true}
-              className="uppercase font-belleza w-fit mt-4 lg:mt-10 4xl:!h-[3rem]  !bg-transparent hover:!bg-black hover:!text-white  !border-[#383838] "
-            >
-              KNOW MORE
-            </LinkButton></div>
-          </div>
-          <div className="2xl:px-10 lg:absolute lg:container lg:inset-x-0 lg:bottom-0 flex flex-col md:flex-row justify-between items-center  w-full">
-            <CustomImage srcAttr={handWithRing} altAttr="" titleAttr="" className="w-full md:w-1/2 lg:w-56 lg:h-56 2xl:w-60 2xl:h-60" />
-            <CustomImage srcAttr={diamondNecklaceWoman} altAttr="" titleAttr="" className="w-full md:w-1/2 lg:w-60 lg:h-60 2xl:w-72 2xl:h-72" />
-          </div>
-        </div>
-      </section>
-      <section className="pt-10 md:pt-14 xl:pt-24 2xl:pt-36">
-        <div className="relative">
-          <Marquee variant="engagement-rings" />
-          <div className="absolute inset-0 flex flex-col justify-center items-center">
-            <CustomImage srcAttr={engagementRing} altAttr="" titleAttr="" className="w-[80%] lg:w-1/2" />
-          </div>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-          <h3 className="text-2xl lg:text-3xl font-belleza">Engagement Rings</h3>
-          <LinkButton
-            href="/what-we-sell/rings"
-            roundedArrow={true}
-            className="uppercase font-belleza w-fit lg:mt-10 4xl:!h-[3rem]  !bg-transparent hover:!bg-black hover:!text-white  !border-[#383838] "
-          >
-            DISCOVER
-          </LinkButton></div>
-      </section>
-      <section className="container pt-10 md:pt-14 xl:pt-24 2xl:pt-36">
-        <div className="w-full flex flex-col lg:flex-row justify-between gap-5">
-          <div className="lg:w-[60%]">
-            <div className="flex flex-col justify-between h-full">
-              <h3 className="text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl font-belleza lg:w-[90%] text-black">Discover Unique Vintage and Estate Jewelry</h3>
-              <div>
-                <p className="lg:w-[60%] md:text-md lg:text-lg lg:text-start 2xl:text-[24px] py-4 lg:py-0">
-                  Explore a handpicked selection of vintage and estate jewelry, each piece rich with history, character, and timeless charm. From antique rings to elegant necklaces, find jewelry that’s truly one-of-a-kind and full of meaning.
-                </p>
-                <div className="grid grid-cols-3 mt-6 gap-3 lg:gap-5">
-                  {collectionCategory.map((category, index) => {
-                    return (<div key={index} className="relative">
-                      <CustomImage srcAttr={category.image} altAttr={category.altAttr} className="rounded-xl " titleAttr={category.titleAttr} />
-                      <h4 className="absolute bottom-4 left-4 text-white font-bold z-10 md:text-md lg:text-lg lg:text-start 2xl:text-[24px]">{category.title}</h4>
-                    </div>);
-                  })}
-                </div>
-              </div>
+            <h2 className="font-belleza text-2xl lg:text-5xl my-4 uppercase">
+              Since 1981, we’ve been a trusted name in buying and selling coins,
+              gold, silver, estate jewelry, and lab-grown diamond
+              jewelry—offering expert guidance, fair prices, and personalized
+              service for every customer.
+            </h2>
+            <p className="md:text-md lg:text-lg  2xl:text-[24px]">
+              We take pride in our deep industry knowledge and commitment to
+              integrity. Whether you're a seasoned collector or first-time
+              seller, our goal is to provide a seamless, transparent, and
+              rewarding experience every step of the way.
+            </p>
+            <div className="flex justify-center">
+              {" "}
+              <LinkButton
+                href="/about-us"
+                roundedArrow={true}
+                className="uppercase font-belleza w-fit mt-4 lg:mt-10 4xl:!h-[3rem]  !bg-transparent hover:!bg-black hover:!text-white  !border-[#383838] "
+              >
+                KNOW MORE
+              </LinkButton>
             </div>
           </div>
-          <div className="lg:w-[40%] relative">
-            <CustomImage srcAttr={pendentCollection} className="rounded-xl" altAttr="" titleAttr="" />
-            <h4 className="absolute bottom-4 text-2xl left-4 text-white font-bold z-10">Pendent</h4>
-            <LinkButton collectionArrow={true} href="/what-we-sell/pendants" className="absolute left-5 top-10 rounded-full !bg-transparent !text-white !font-normal capitalize !border-[1px]" >View all collection </LinkButton>
+          <div className="2xl:px-10 lg:absolute lg:container lg:inset-x-0 lg:bottom-0 flex flex-col md:flex-row justify-between items-center  w-full">
+            <CustomImage
+              srcAttr={handWithRing}
+              altAttr=""
+              titleAttr=""
+              className="w-full md:w-1/2 lg:w-56 lg:h-56 2xl:w-60 2xl:h-60"
+            />
+            <CustomImage
+              srcAttr={diamondNecklaceWoman}
+              altAttr=""
+              titleAttr=""
+              className="w-full md:w-1/2 lg:w-60 lg:h-60 2xl:w-72 2xl:h-72"
+            />
           </div>
         </div>
+      </section>
+
+      <section className="container pt-10 md:pt-14 xl:pt-24 2xl:pt-36">
+        <div className="w-full flex flex-col lg:flex-row justify-between gap-5"></div>
       </section>
       <section className="pt-10 md:pt-14 xl:pt-24 2xl:pt-36 relative ">
         <CustomImage srcAttr={shopTheLookBg} altAttr="" titleAttr="" />
 
         <div className="absolute bottom-[10%] left-[10%]   text-primary">
           <div className="flex items-center gap-6">
-            <h3 className="text-6xl font-belleza">Shop the look</h3>
-            <AnimatedCircleText
-              text="Shop Now • Shop Now • Shop Now • Shop Now • "
-              arrowImage={rightArrow}
-              purityImage={purity}
-            />
+            <h3 className="text-5xl font-belleza">Shop the look</h3>
+
+            <Link href="/contact-us">
+              <AnimatedCircleText
+                text="Shop Now • Shop Now • Shop Now • Shop Now • "
+                arrowImage={rightArrow}
+                purityImage={purity}
+              />
+            </Link>
           </div>
         </div>
       </section>
-
     </>
   );
 }
