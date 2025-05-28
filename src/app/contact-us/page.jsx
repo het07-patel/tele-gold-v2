@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import contactUsHero from "@/assets/images/contact-us/hero-banner.webp";
 import phone from "@/assets/images/icons/phone.svg";
 import location from "@/assets/images/icons/location.svg";
+import openingHours from "@/assets/images/icons/opening-hour.svg";
 import { ContactForm, CustomImage } from "@/components/dynamiComponents";
 import { companyAddress, companyPhoneNo } from "@/utils/environments";
 import Marquee from "@/components/Marquee";
@@ -18,9 +19,17 @@ export default function ContactUs() {
       <section className="container py-10 md:py-14 xl:py-24 2xl:py-36">
         <div className="border border-[#DFDFDF] rounded-[25px] lg:rounded-[40px] flex flex-col lg:flex-row w-full ">
           <div className="bg-white lg:w-[40%] rounded-t-[25px] lg:rounded-tr-none lg:rounded-l-[40px] p-8 lg:p-10">
-            <h3 className="font-semibold text-black md:text-md   2xl:text-[24px]">
-              Opening Hours:
-            </h3>
+            <div className="flex items-center gap-2">
+              <CustomImage
+                srcAttr={openingHours}
+                titleAttr=""
+                altAttr=""
+                className="w-5 lg:w-6 object-cover"
+              />
+              <h3 className="font-semibold text-black md:text-md 2xl:text-[24px]">
+                Opening Hours:
+              </h3>
+            </div>
             <div className="flex w-full mt-2">
               <ul className="md:text-md w-1/3  2xl:text-[20px]  text-[#323334]">
                 <li>Monday :</li>

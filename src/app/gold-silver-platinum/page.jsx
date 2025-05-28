@@ -141,7 +141,7 @@ export default function GoldSilverPlatinum() {
 
       <section className="pt-10 md:pt-14 xl:pt-16 2xl:pt-36">
         <div>
-          <HeadingTitle sectionName="Gold, Silver & Platinum Bought and Sold with Confidence" />
+          <HeadingTitle sectionName="Gold, Silver & Platinum Buy and Sell with Confidence" />
         </div>
         <div className="container pt-4 md:pt-8 lg:pt-14 2xl:pt-20">
           <AnimatedSection {...animatedContent[0]} />
