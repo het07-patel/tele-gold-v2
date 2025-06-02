@@ -1,5 +1,7 @@
+import Lenis from "./lenis";
+import StoreProvider from "@/store/provider";
+import Header from "./header";
 import Footer from "./footer";
-import { Header, Lenis, StoreProvider } from "./dynamiComponents";
 
 const Layout = ({ children }) => {
   return (

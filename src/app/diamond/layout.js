@@ -7,7 +7,7 @@ const META_DESCRIPTION =
   "Whether you're buying or selling, our diamond experts offer competitive prices, honest appraisals, and a transparent, hassle-free process.";
 const META_KEYWORDS =
   "buy diamonds, sell diamonds, loose diamonds, diamond appraisal, diamond buyers, diamond dealers, cash for diamonds, diamond jewelry trade, certified diamond buyers";
-const CANONICAL_URL = `${WebsiteUrl}/what-we-buy/diamond`;
+const CANONICAL_URL = `${WebsiteUrl}/diamond`;
 
 export const metadata = generateMetadata({
   title: META_TITLE,

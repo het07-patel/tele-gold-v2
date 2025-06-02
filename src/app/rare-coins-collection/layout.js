@@ -6,7 +6,7 @@ const META_DESCRIPTION =
   "Buy or sell rare coins and collectibles with trusted experts. Get fast appraisals, accurate valuations, and competitive cash offers.";
 const META_KEYWORDS =
   "buy coins, sell coins, rare coin buyers, collectible coin dealers, coin appraisals, antique coins, cash for coins, gold coins, silver coins, coin resale, coin dealers near me";
-const CANONICAL_URL = `${WebsiteUrl}/what-we-buy/rare-coins-collection`;
+const CANONICAL_URL = `${WebsiteUrl}/rare-coins-collection`;
 
 export const metadata = generateMetadata({
   title: META_TITLE,

@@ -1,9 +1,10 @@
-import { Layout } from "@/components/dynamiComponents";
+// import { Layout } from "@/components/dynamiComponents";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { generateMetadata } from "@/utils/metaConfig";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { googleAnalyticsId } from "@/utils/environments";
+import Layout from "@/components/layout";
 
 const inter = Inter({
   subsets: ["latin"],

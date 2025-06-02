@@ -6,7 +6,7 @@ const META_DESCRIPTION =
   "Looking to buy or sell estate or vintage diamond jewelry? We offer expert evaluations, competitive pricing, and a seamless process for unique and heirloom pieces.";
 const META_KEYWORDS =
   "buy estate jewelry, sell estate jewelry, vintage diamond jewelry, antique diamond jewelry, estate jewelry buyers, heirloom diamonds, sell vintage jewelry, estate diamond appraisal";
-const CANONICAL_URL = `${WebsiteUrl}/what-we-buy/estate-jewelry`;
+const CANONICAL_URL = `${WebsiteUrl}/estate-jewelry`;
 
 export const metadata = generateMetadata({
   title: META_TITLE,

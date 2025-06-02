@@ -2,27 +2,23 @@
 import dynamic from "next/dynamic";
 
 // Common Component
-export const Header = dynamic(() => import("./header"), { ssr: false });
-export const Footer = dynamic(() => import("./footer"), { ssr: false });
 export const CustomImage = dynamic(() => import("./customImage"), {
   ssr: false,
 });
 
 export const DropDown = dynamic(() => import("./dropdown"), { ssr: false });
 
-export const Layout = dynamic(() => import("./layout"), { ssr: false });
-export const Lenis = dynamic(() => import("./lenis"), { ssr: false });
-export const StoreProvider = dynamic(() => import("@/store/provider"), {
-  ssr: false,
-});
 export const Spinner = dynamic(() => import("./spinner"), { ssr: false });
+
 export const AnimatedSection = dynamic(() => import("./AnimatedSection"), {
   ssr: false,
 });
+
 export const DiamondJewelrySwipper = dynamic(
   () => import("./DiamondJewelrySwipper"),
   { ssr: false }
 );
+
 export const MarqueeBrands = dynamic(() => import("./MarqueeBrands"), {
   ssr: false,
 });
@@ -51,9 +47,11 @@ export const AlternatingFeatureBlock = dynamic(
 export const FAQSection = dynamic(() => import("./FAQSection"), {
   ssr: false,
 });
+
 export const TextCarousel = dynamic(() => import("./TextCarousel"), {
   ssr: false,
 });
+
 export const ContactForm = dynamic(() => import("./contactForm"), {
   ssr: false,
 });
@@ -86,6 +84,7 @@ export const GoldSilverPlatinumScrollbar = dynamic(
 );
 
 export const Timeline = dynamic(() => import("./Timeline"), { ssr: false });
+
 export const ScrollImageSection = dynamic(
   () => import("./scrollImageSection"),
   { ssr: false }

@@ -7,7 +7,7 @@ const META_DESCRIPTION =
   "We buy and sell platinum jewelry including rings, vintage pieces, and estate collections. Get competitive offers and expert appraisals.";
 const META_KEYWORDS =
   "buy platinum jewelry, sell platinum jewelry, platinum rings, vintage platinum, estate platinum, platinum jewelry dealers, platinum buyers, platinum jewelry resale";
-const CANONICAL_URL = `${WebsiteUrl}/what-we-buy/vintage-platinum-jewelry`;
+const CANONICAL_URL = `${WebsiteUrl}/vintage-platinum-jewelry`;
 
 export const metadata = generateMetadata({
   title: META_TITLE,

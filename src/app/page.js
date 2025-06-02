@@ -1,83 +1,94 @@
-import silverLeafPendant from "@/assets/images/home/silver-leaf-pendant.webp"
-import chain from "@/assets/images/home/chain.webp"
-import classic from "@/assets/images/home/classic.webp"
-import cuban from "@/assets/images/home/cuban.webp"
-import butterflyNecklace from "@/assets/images/home/butterfly-necklace.webp"
-import diamondChainPendant from "@/assets/images/home/diamond-chain-pendant.webp"
-import doubleLoopNecklace from "@/assets/images/home/double-loop-necklace.webp"
-import { AnimatedCircleText, CustomImage, ScrollImageSection } from "@/components/dynamiComponents"
-import { LinkButton } from "@/components/button"
-import shopByShape from "@/assets/images/home/shop-by-shape.webp"
-import round from "@/assets/images/home/round.webp"
-import emerald from "@/assets/images/home/emerald.webp"
-import cushion from "@/assets/images/home/cushion.webp"
-import princess from "@/assets/images/home/princess.webp"
+import silverLeafPendant from "@/assets/images/home/silver-leaf-pendant.webp";
+import chain from "@/assets/images/home/chain.webp";
+import classic from "@/assets/images/home/classic.webp";
+import cuban from "@/assets/images/home/cuban.webp";
+import butterflyNecklace from "@/assets/images/home/butterfly-necklace.webp";
+import diamondChainPendant from "@/assets/images/home/diamond-chain-pendant.webp";
+import doubleLoopNecklace from "@/assets/images/home/double-loop-necklace.webp";
+import {
+  AnimatedCircleText,
+  CustomImage,
+  ScrollImageSection,
+} from "@/components/dynamiComponents";
+import { LinkButton } from "@/components/button";
+import shopByShape from "@/assets/images/home/shop-by-shape.webp";
+import round from "@/assets/images/home/round.webp";
+import emerald from "@/assets/images/home/emerald.webp";
+import cushion from "@/assets/images/home/cushion.webp";
+import princess from "@/assets/images/home/princess.webp";
 import purity from "@/assets/images/icons/purity.svg";
-import rightArrow from "@/assets/images/icons/right-arrow.svg"
-import oval from "@/assets/images/home/oval.webp"
-import marquise from "@/assets/images/home/marquise.webp"
-import shopTheLookBg from "@/assets/images/home/shop-the-look-bg.webp"
-import pendentCollection from "@/assets/images/home/pendent-collection.webp"
-import jewelryBoxDiamondRing from "@/assets/images/home/jewelry-box-diamond-ring.webp"
-import necklaceCloseup from "@/assets/images/home/necklace-closeup.webp"
-import handWithRing from "@/assets/images/home/hand-with-ring.webp"
-import diamondNecklaceWoman from "@/assets/images/home/diamond-necklace-woman.webp"
-import HeadingTitle from "@/components/HeadingTitle"
-import Hero from "@/components/Hero"
+import rightArrow from "@/assets/images/icons/right-arrow.svg";
+import oval from "@/assets/images/home/oval.webp";
+import marquise from "@/assets/images/home/marquise.webp";
+import shopTheLookBg from "@/assets/images/home/shop-the-look-bg.webp";
+import pendentCollection from "@/assets/images/home/pendent-collection.webp";
+import jewelryBoxDiamondRing from "@/assets/images/home/jewelry-box-diamond-ring.webp";
+import necklaceCloseup from "@/assets/images/home/necklace-closeup.webp";
+import handWithRing from "@/assets/images/home/hand-with-ring.webp";
+import diamondNecklaceWoman from "@/assets/images/home/diamond-necklace-woman.webp";
+import HeadingTitle from "@/components/HeadingTitle";
+import Hero from "@/components/Hero";
 import Link from "next/link";
 
-const diamondShapes = [{
-  title: "Round",
-  shapeImg: round,
-  altAttr: "",
-  titleAttr: ""
-}, {
-  title: "Emerald",
-  shapeImg: emerald,
-  altAttr: "",
-  titleAttr: ""
-}, {
-  title: "Cushion",
-  shapeImg: cushion,
-  altAttr: "",
-  titleAttr: ""
-}, {
-  title: "Princess",
-  shapeImg: princess,
-  altAttr: "",
-  titleAttr: ""
-}, {
-  title: "Oval",
-  shapeImg: oval,
-  altAttr: "",
-  titleAttr: ""
-},
-{
-  title: "Marquise",
-  shapeImg: marquise,
-  altAttr: "",
-  titleAttr: ""
-},]
+const diamondShapes = [
+  {
+    title: "Round",
+    shapeImg: round,
+    altAttr: "",
+    titleAttr: "",
+  },
+  {
+    title: "Emerald",
+    shapeImg: emerald,
+    altAttr: "",
+    titleAttr: "",
+  },
+  {
+    title: "Cushion",
+    shapeImg: cushion,
+    altAttr: "",
+    titleAttr: "",
+  },
+  {
+    title: "Princess",
+    shapeImg: princess,
+    altAttr: "",
+    titleAttr: "",
+  },
+  {
+    title: "Oval",
+    shapeImg: oval,
+    altAttr: "",
+    titleAttr: "",
+  },
+  {
+    title: "Marquise",
+    shapeImg: marquise,
+    altAttr: "",
+    titleAttr: "",
+  },
+];
 
-
-const collectionCategory = [{
-  title: "Classic",
-  image: classic,
-  altAttr: "",
-  titleAttr: ""
-},
-{
-  title: "Cuban",
-  image: cuban,
-  altAttr: "",
-  titleAttr: ""
-},
-{
-  title: "Chain",
-  image: chain,
-  altAttr: "",
-  titleAttr: ""
-}]
+const collectionCategory = [
+  {
+    title: "Classic",
+    image: classic,
+    altAttr: "",
+    titleAttr: "",
+  },
+  {
+    title: "Cuban",
+    image: cuban,
+    altAttr: "",
+    titleAttr: "",
+  },
+  {
+    title: "Chain",
+    image: chain,
+    altAttr: "",
+    titleAttr: "",
+  },
+];
 export default function Home() {
   return (
     <>
@@ -213,7 +224,7 @@ export default function Home() {
             </h2>
             <p className="md:text-md lg:text-lg  2xl:text-[24px]">
               We take pride in our deep industry knowledge and commitment to
-              integrity. Whether you're a seasoned collector or first-time
+              integrity. Whether you&apos;re a seasoned collector or first-time
               seller, our goal is to provide a seamless, transparent, and
               rewarding experience every step of the way.
             </p>
