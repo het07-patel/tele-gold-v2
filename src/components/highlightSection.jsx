@@ -1,5 +1,5 @@
-import { CustomImage } from "./dynamiComponents";
 import commonHighlightImg from "@/assets/images/what-we-sell/highlight-image.webp";
+import CustomImage from "./customImage";
 
 export default function HighlightSection({
   title = "",

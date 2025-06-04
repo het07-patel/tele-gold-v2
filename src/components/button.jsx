@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { GoArrowRight } from "react-icons/go";
 import { LuArrowDownRight } from "react-icons/lu";
 import roundedRightArrow from "@/assets/images/icons/rounded-right-arrow.svg";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 const containedBtn = "bg-white border border-white ";
 const outlinedBtn = "border-2 border-white text-white bg-transparent";
 const primaryBtn = `

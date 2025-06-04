@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { LinkButton } from "./button";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 export default function DiamondJewelrySwipper({ images }) {
   return (

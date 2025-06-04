@@ -12,12 +12,12 @@ import estateSwiper4 from "@/assets/images/what-we-buy/estate-jewelry/estate-swi
 import estateSwiper5 from "@/assets/images/what-we-buy/estate-jewelry/estate-swiper-5.webp";
 import {
   AnimatedSection,
-  CustomImage,
   EstateJewelrySwiper,
 } from "@/components/dynamiComponents";
 
 import HeadingTitle from "@/components/HeadingTitle";
 import KeepInTouch from "@/components/KeepInTouch";
+import CustomImage from "@/components/customImage";
 
 const animatedContent = [
   {

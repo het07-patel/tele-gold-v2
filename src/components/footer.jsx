@@ -1,8 +1,8 @@
 import logo from "@/assets/images/logo.webp";
-import { CustomImage } from "./dynamiComponents";
 import Link from "next/link";
 import { facebookUrl, instagramUrl } from "@/utils/environments";
 import { LuFacebook, LuInstagram } from "react-icons/lu";
+import CustomImage from "./customImage";
 
 const serviceLinks = [
   { name: "Home", url: "/" },

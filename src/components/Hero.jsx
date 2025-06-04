@@ -1,8 +1,8 @@
 import { LinkButton } from "./button";
-import { CustomImage } from "./dynamiComponents";
 import labgrownBg from "@/assets/images/labgrown-diamond/hero-bg.webp";
 import earthBg from "@/assets/images/labgrown-diamond/earth-bg.webp";
 import labgrownHero from "@/assets/images/labgrown-diamond/hero-diamond.gif";
+import CustomImage from "./customImage";
 
 const Hero = ({
   title,

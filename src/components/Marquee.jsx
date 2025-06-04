@@ -1,6 +1,6 @@
 import diamondSvg from "@/assets/images/diamond.svg";
 import starSvg from "@/assets/images/star.svg";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 const Marquee = ({ variant = "telegold" }) => {
   return (

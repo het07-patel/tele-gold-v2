@@ -4,7 +4,7 @@ import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 const TextCarousel = ({ img, content, titleAttr = "", altAttr = "" }) => {
   return (

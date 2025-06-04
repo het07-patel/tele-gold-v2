@@ -1,5 +1,5 @@
-import { CustomImage } from "./dynamiComponents";
 import commonPromoBanner from "@/assets/images/what-we-sell/promo-banner.webp";
+import CustomImage from "./customImage";
 export default function PromoBanner({
   title = "",
   description = "",

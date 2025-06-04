@@ -7,7 +7,6 @@ import diamondChainPendant from "@/assets/images/home/diamond-chain-pendant.webp
 import doubleLoopNecklace from "@/assets/images/home/double-loop-necklace.webp";
 import {
   AnimatedCircleText,
-  CustomImage,
   ScrollImageSection,
 } from "@/components/dynamiComponents";
 import { LinkButton } from "@/components/button";
@@ -29,6 +28,7 @@ import diamondNecklaceWoman from "@/assets/images/home/diamond-necklace-woman.we
 import HeadingTitle from "@/components/HeadingTitle";
 import Hero from "@/components/Hero";
 import Link from "next/link";
+import CustomImage from "@/components/customImage";
 
 const diamondShapes = [
   {

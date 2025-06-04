@@ -1,5 +1,5 @@
 import React from "react";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 export default function CategoryFeatureSection({
   title = "",

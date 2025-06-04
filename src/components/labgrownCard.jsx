@@ -1,6 +1,6 @@
 import React from "react";
 import card from "@/assets/images/labgrown-diamond/card.svg";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 export default function LabgrownCard({
   index = 1,

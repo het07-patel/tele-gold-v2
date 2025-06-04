@@ -1,6 +1,6 @@
 "use client";
 import { useState, useRef } from "react";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 const VideoSection = ({
   src,

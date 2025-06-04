@@ -1,5 +1,5 @@
 "use client";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 const TwoImagesAndCenterText = ({
   title,

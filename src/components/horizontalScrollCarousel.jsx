@@ -7,10 +7,10 @@ import post3 from "@/assets/images/what-we-sell/post-3.webp";
 import post4 from "@/assets/images/what-we-sell/post-4.webp";
 import post5 from "@/assets/images/what-we-sell/post-5.webp";
 import bgShape from "@/assets/images/icons/bg-shape.svg";
-import { CustomImage } from "./dynamiComponents";
 import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 import { instagramUrl } from "@/utils/environments";
+import CustomImage from "./customImage";
 
 const swiperItems = [
   { image: post, titleAttr: "", altAttr: "" },
