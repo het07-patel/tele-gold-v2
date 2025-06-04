@@ -3,7 +3,6 @@ import heroGoldSilver from "@/assets/images/what-we-buy/gold-silver-platinum/hom
 import HeadingTitle from "@/components/HeadingTitle";
 import {
   AnimatedSection,
-  CustomImage,
   GoldSilverPlatinumScrollbar,
 } from "@/components/dynamiComponents";
 import goldSilver1 from "@/assets/images/what-we-buy/gold-silver-platinum/gold-silver-1.webp";
@@ -19,8 +18,8 @@ import goldSilver10 from "@/assets/images/what-we-buy/gold-silver-platinum/gold-
 import goldSilver11 from "@/assets/images/what-we-buy/gold-silver-platinum/gold-silver-11.webp";
 import goldSilver12 from "@/assets/images/what-we-buy/gold-silver-platinum/gold-silver-12.webp";
 import starSvg from "@/assets/images/what-we-buy/gold-silver-platinum/star.svg";
-
 import KeepInTouch from "@/components/KeepInTouch";
+import CustomImage from "@/components/customImage";
 
 const animatedContent = [
   {

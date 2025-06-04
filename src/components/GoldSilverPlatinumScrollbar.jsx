@@ -1,10 +1,10 @@
 "use client";
-import { CustomImage } from "./dynamiComponents";
 import { useEffect, useRef, useState } from "react";
 import MarqueeText from "./MarqueeText";
 
 import gsap from "gsap";
 import { motion } from "framer-motion";
+import CustomImage from "./customImage";
 
 const containerVariants = {
   hidden: { opacity: 0 },

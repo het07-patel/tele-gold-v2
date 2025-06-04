@@ -6,7 +6,6 @@ import Link from "next/link";
 import {
   AnimatedCircleText,
   AnimatedSection,
-  CustomImage,
   Timeline,
   VideoSection,
 } from "@/components/dynamiComponents";
@@ -21,6 +20,7 @@ import purity from "@/assets/images/icons/grey-purity.svg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link as LinkIcon } from "lucide-react";
+import CustomImage from "@/components/customImage";
 gsap.registerPlugin(ScrollTrigger);
 
 const animatedContent = [

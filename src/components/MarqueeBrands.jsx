@@ -13,7 +13,7 @@ import watchesBrand12 from "@/assets/images/what-we-buy/watches/watches-brand-12
 import watchesBrand13 from "@/assets/images/what-we-buy/watches/watches-brand-13.webp";
 
 import { motion } from "framer-motion";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 const tempTopRow = [
   { img: watchesBrand1, titleAttr: "", altAttr: "" },

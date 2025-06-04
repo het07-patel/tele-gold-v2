@@ -1,4 +1,4 @@
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 const AnimatedCircleText = ({
   text = "",

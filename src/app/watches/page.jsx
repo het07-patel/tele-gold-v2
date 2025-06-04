@@ -10,11 +10,11 @@ import watches7 from "@/assets/images/what-we-buy/watches/watches-7.webp";
 import HeadingTitle from "@/components/HeadingTitle";
 import {
   AnimatedSection,
-  CustomImage,
   MarqueeBrands,
   MarqueeText,
 } from "@/components/dynamiComponents";
 import KeepInTouch from "@/components/KeepInTouch";
+import CustomImage from "@/components/customImage";
 
 const animatedContent = [
   {

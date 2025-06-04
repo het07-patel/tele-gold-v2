@@ -10,13 +10,13 @@ import coinsBackground from "@/assets/images/what-we-buy/rare-coins/coins-backgr
 import thumbnail from "@/assets/images/video.webp";
 import {
   AnimatedSection,
-  CustomImage,
   FallingCoins,
   TwoImagesAndCenterText,
   VideoSection,
 } from "@/components/dynamiComponents";
 import HeadingTitle from "@/components/HeadingTitle";
 import KeepInTouch from "@/components/KeepInTouch";
+import CustomImage from "@/components/customImage";
 
 const benefits = [
   {

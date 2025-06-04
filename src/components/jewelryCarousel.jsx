@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 export default function JewelryCarousel({ title = "", swiperItems = [] }) {
   return (

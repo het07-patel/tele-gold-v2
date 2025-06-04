@@ -8,7 +8,7 @@ import {
   leftToRightAnimation,
   rightToLeftAnimation,
 } from "@/utils/common";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 const AlternatingFeatureBlock = ({
   description = "",

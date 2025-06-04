@@ -1,4 +1,4 @@
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 export default function DiamondCard({ image, altAttr, titleAttr, title }) {
   return (

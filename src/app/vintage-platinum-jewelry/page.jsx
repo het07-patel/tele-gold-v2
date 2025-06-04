@@ -16,8 +16,8 @@ import vintage12 from "@/assets/images/what-we-buy/vintage-platinum-jewelry/vint
 import vintage13 from "@/assets/images/what-we-buy/vintage-platinum-jewelry/vintage-13.webp";
 import vintage14 from "@/assets/images/what-we-buy/vintage-platinum-jewelry/vintage-14.webp";
 import vintage15 from "@/assets/images/what-we-buy/vintage-platinum-jewelry/vintage-15.webp";
-import { CustomImage } from "@/components/dynamiComponents";
 import HeadingTitle from "@/components/HeadingTitle";
+import CustomImage from "@/components/customImage";
 
 const categories = [
   {

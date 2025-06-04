@@ -3,9 +3,10 @@ import contactUsHero from "@/assets/images/contact-us/hero-banner.webp";
 import phone from "@/assets/images/icons/phone.svg";
 import location from "@/assets/images/icons/location.svg";
 import openingHours from "@/assets/images/icons/opening-hour.svg";
-import { ContactForm, CustomImage } from "@/components/dynamiComponents";
+import { ContactForm } from "@/components/dynamiComponents";
 import { companyAddress, companyPhoneNo } from "@/utils/environments";
 import Marquee from "@/components/Marquee";
+import CustomImage from "@/components/customImage";
 export default function ContactUs() {
   return (
     <>

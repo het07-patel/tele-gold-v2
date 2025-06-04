@@ -15,12 +15,12 @@ import whiteCircle from "@/assets/images/what-we-buy/diamond-jewelry/whiteCircle
 import HeadingTitle from "@/components/HeadingTitle";
 import {
   AnimatedSection,
-  CustomImage,
   DiamondJewelrySwipper,
   MarqueeText,
   TwoImagesAndCenterText,
 } from "@/components/dynamiComponents";
 import KeepInTouch from "@/components/KeepInTouch";
+import CustomImage from "@/components/customImage";
 
 const animatedContent = [
   {

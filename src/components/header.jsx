@@ -12,9 +12,10 @@ import {
   setIsWhatWeBuyDropDownOpen,
   setIsWhatWeSellDropDownOpen,
 } from "@/store/slices/commonSlice";
-import { CustomImage, DropDown } from "./dynamiComponents";
+import { DropDown } from "./dynamiComponents";
 import { useWindowSize } from "@/helper/hooks";
 import { usePathname } from "next/navigation";
+import CustomImage from "./customImage";
 
 const Header = () => {
   const dispatch = useDispatch();

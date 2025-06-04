@@ -24,10 +24,10 @@ import diamondBackground from "@/assets/images/what-we-buy/diamond/diamond-backg
 import KeepInTouch from "@/components/KeepInTouch";
 import {
   AnimatedSection,
-  CustomImage,
   FAQSection,
   TextCarousel,
 } from "@/components/dynamiComponents";
+import CustomImage from "@/components/customImage";
 
 const cardsData = [
   { image: diamondPear, titleAttr: "", altAttr: "", title: "PEAR" },

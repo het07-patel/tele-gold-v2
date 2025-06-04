@@ -19,7 +19,6 @@ import exceptionalClarity from "@/assets/images/labgrown-diamond/exceptional-cla
 import brilliantCut from "@/assets/images/labgrown-diamond/brilliant-cut.webp";
 import brilliantCutDiamond from "@/assets/images/labgrown-diamond/brilliant-cut-diamond.webp";
 import {
-  CustomImage,
   DiamondJewelrySwipper,
 } from "@/components/dynamiComponents";
 import { GoArrowRight, GoX } from "react-icons/go";
@@ -39,6 +38,7 @@ import { useEffect, useRef, useState } from "react";
 import LabgrownCard from "@/components/labgrownCard";
 import { carouselImages } from "../diamond-jewelry/page";
 import HeadingTitle from "@/components/HeadingTitle";
+import CustomImage from "@/components/customImage";
 const whyChooseLabGrownDiamonds = [
   {
     videoSrc: "/videos/ethical-sustainable.mov",

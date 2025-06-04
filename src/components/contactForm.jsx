@@ -13,10 +13,11 @@ import { Button } from "./button";
 import selling from "@/assets/images/contact-us/selling.svg";
 import buying from "@/assets/images/contact-us/buying.svg";
 import repairDesign from "@/assets/images/contact-us/repair-design.svg";
-import { CustomImage, Spinner } from "./dynamiComponents";
+import { Spinner } from "./dynamiComponents";
 import { sendContactDetails } from "@/services";
 import { setContactMessage } from "@/store/slices/commonSlice";
 import { useAlertTimeout } from "@/utils/hooks";
+import CustomImage from "./customImage";
 
 const inputClassName =
   "block w-full rounded-full p-3 md:p-3 md:px-5 2xl:p-4 2xl:px-8 text-[14px] lg:text-base placeholder:text-slate placeholder:text-[#898C92] sm:text-sm 2xl:text-lg  border border-[#DFDFDF] focus:outline-none";

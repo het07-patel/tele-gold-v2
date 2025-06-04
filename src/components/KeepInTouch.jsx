@@ -2,7 +2,7 @@ import Marquee from "@/components/Marquee";
 import keepInTouch from "@/assets/images/keep-in-touch/keep-in-touch-1.webp";
 
 import EmailComponent from "./EmailComponent";
-import { CustomImage } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 const KeepInTouch = () => {
   return (

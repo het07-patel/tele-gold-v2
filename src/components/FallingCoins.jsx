@@ -1,5 +1,5 @@
 "use client";
-import { CustomImage, MarqueeText } from "./dynamiComponents";
+import CustomImage from "./customImage";
 
 const FallingCoins = ({ coins, description }) => {
   const coinData = [
