@@ -23,26 +23,26 @@ const categories = [
   {
     label: "Rings",
     image: vintage3,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Diamond Ring | Diamond Jewelry",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
   {
     label: "Earings",
     image: vintage8,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Gold Jewelry | Diamond Jewelry",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
   {
     label: "Necklace",
     image: vintage7,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Gold Jewelry | Diamond Jewelry",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
   {
     label: "Bracelets",
     image: vintage9,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Gold Jewelry | Diamond Jewelry",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
 ];
 const features = [
@@ -51,32 +51,32 @@ const features = [
     description:
       "Showcasing intricate designs that reflect the artistry of bygone eras.",
     image: vintage11,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Diamond Ring | Diamond Jewelry",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
   {
     title: "Rare Elegance",
     description:
       "A symbol of exclusivity with distinctive vintage details and unique charm.",
     image: vintage12,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Diamond",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
   {
     title: "Lasting Durability",
     description:
       "Platinum’s strength ensures your treasured piece endures for generations.",
     image: vintage13,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Antique Jewelry | Diamond Jewelry",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
   {
     title: "Historic Value",
     description:
       "Each piece holds historical significance, echoing stories from a rich past.",
     image: vintage14,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Diamonds",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
 ];
 
@@ -86,32 +86,32 @@ const collectionArray = [
     description:
       "A timeless symbol of love and commitment, crafted for elegance and everyday brilliance.",
     image: vintage5,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Diamond Earring | Diamond Jewelry",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
   {
     title: "Earring: Subtle Sparkle",
     description:
       "Delicate and refined, these earrings add a touch of grace to every look.",
     image: vintage6,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Gold Jewelry | Diamond Jewelry",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
   {
     title: "Necklace: Classic Grace",
     description:
       "An exquisite statement piece that enhances your neckline with timeless beauty.",
     image: vintage10,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Diamond Ring | Diamond Jewelry",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
   {
     title: "Bracelet: Elegant Charm",
     description:
       "A graceful accessory designed to add subtle sophistication to any outfit.",
     image: vintage4,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Gold Jewelry | Diamond Jewelry",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
   },
 ];
 export default function VintagePlatinumJewelry() {
@@ -122,8 +122,8 @@ export default function VintagePlatinumJewelry() {
           title="Celebrating the Legacy of Vintage Platinum Jewelry"
           imageSrc={heroVintage}
           textAlignment="center"
-          titleAttr=""
-          altAttr=""
+          titleAttr="Gold Jewelry | Diamond Jewelry"
+          altAttr="Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum"
         />
       </section>
       <div className="md:px-0 px-6">
@@ -141,8 +141,8 @@ export default function VintagePlatinumJewelry() {
                   <div className="relative z-10">
                     <CustomImage
                       srcAttr={vintage2}
-                      titleAttr=""
-                      altAttr=""
+                      titleAttr="Diamond"
+                      altAttr="Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum"
                       className="rounded-full w-full h-full"
                     />
                   </div>
@@ -173,8 +173,7 @@ export default function VintagePlatinumJewelry() {
           <div className="flex h-full justify-end w-full md:mt-0 mt-6 xl:w-[80%]">
             <CustomImage
               srcAttr={vintage1}
-              titleAttr=""
-              altAttr=""
+              titleAttr="Gold Jewelry | Diamond Jewelry"
               className="h-full w-full object-cover xl:h-[90vh]"
             />
           </div>
@@ -298,8 +297,8 @@ export default function VintagePlatinumJewelry() {
           <div className="relative w-full md:w-[90%] h-screen md:h-full lg:h-[650px] xl:h-[800px]  2xl:h-[950px] ">
             <CustomImage
               srcAttr={vintage15}
-              titleAttr=""
-              altAttr=""
+              titleAttr="Gold Jewelry | Diamond Jewelry"
+              altAttr="Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum"
               className="object-cover w-full h-full"
             />
           </div>

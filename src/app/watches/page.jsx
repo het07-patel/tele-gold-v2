@@ -19,8 +19,8 @@ import CustomImage from "@/components/customImage";
 const animatedContent = [
   {
     img: watches6,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Watch | Rolex | Citizen",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
     description: [
       "Whether you’re looking to sell a treasured timepiece or invest in a luxury watch, we offer a trusted, transparent, and rewarding experience. From rare collector’s pieces to iconic brands like Rolex and Patek Philippe, we understand the value, craftsmanship, and history behind every watch.",
       "Our experts provide accurate evaluations and fair, market-based offers for sellers, while helping buyers discover authentic, high-quality watches with confidence. Whether you’re parting with an heirloom or adding to your collection, our seamless process ensures you get the value and service you deserve.",
@@ -38,8 +38,8 @@ export default function Watches() {
           title="Explore, Buy, or Sell Premium Watches Today"
           imageSrc={heroWatches}
           textAlignment="center"
-          titleAttr=""
-          altAttr=""
+          titleAttr="Watch | Rolex | Citizen"
+          altAttr="Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum"
         />
       </section>
 
@@ -53,8 +53,8 @@ export default function Watches() {
           <div className="relative z-10 flex justify-center items-center">
             <CustomImage
               srcAttr={watches1}
-              altAttr=""
-              titleAttr=""
+              altAttr="Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum"
+              titleAttr="Watch | Rolex | Citizen"
               className="2xl:w-full lg:w-[90%]"
             />
           </div>
@@ -84,8 +84,7 @@ export default function Watches() {
             <div>
               <CustomImage
                 srcAttr={watches5}
-                titleAttr=""
-                altAttr=""
+                titleAttr="Watch | Rolex | Citizen"
                 className="w-full"
               />
             </div>
@@ -100,8 +99,7 @@ export default function Watches() {
           <div className="md:relative flex justify-center bottom-[-10%] lg:bottom-[0%] 2xl:bottom-[-10%]">
             <CustomImage
               srcAttr={watches4}
-              titleAttr=""
-              altAttr=""
+              titleAttr="Watch | Rolex | Citizen"
               className="w-[100%] 2xl:!w-[75%] 2xl:h-[590px] object-cover"
             />
           </div>
@@ -117,8 +115,7 @@ export default function Watches() {
             <div className="  inline-block">
               <CustomImage
                 srcAttr={watches7}
-                titleAttr=""
-                altAttr=""
+                titleAttr="Watch | Rolex | Citizen"
                 className="w-[100%] lg:!h-[450px] 2xl:!h-[500px]"
               />
             </div>
@@ -190,14 +187,12 @@ export default function Watches() {
           <div className="grid grid-cols-2 gap-4 items-end">
             <CustomImage
               srcAttr={watches2}
-              titleAttr=""
-              altAttr=""
+              titleAttr="Watch | Rolex | Citizen"
               className="w-[90%]  lg:!h-[350px] 2xl:!h-auto object-cover"
             />
             <CustomImage
               srcAttr={watches3}
-              titleAttr=""
-              altAttr=""
+              titleAttr="Watch | Rolex | Citizen"
               className="w-[100%]  lg:!h-[450px] 2xl:!h-auto  object-cover"
             />
           </div>

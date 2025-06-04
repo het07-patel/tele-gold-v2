@@ -94,7 +94,7 @@ export default function VintagePlatinumJewelry() {
           title="Buy Diamond Jewelry with Ease and Confidence"
           imageSrc={heroCoin}
           textAlignment="center"
-          titleAttr=""
+          titleAttr="Diamond Ring | Diamond Jewelry"
           altAttr=""
         />
       </section>
@@ -110,7 +110,7 @@ export default function VintagePlatinumJewelry() {
             <span className="inline-block transform rotate-[-6deg] px-4">
               <CustomImage
                 srcAttr={ringVed}
-                titleAttr=""
+                titleAttr="Diamond Ring | Diamond Jewelry"
                 altAttr=""
                 className="w-[150px] h-[80px] md:w-[300px] md:h-[180px] object-cover"
               />

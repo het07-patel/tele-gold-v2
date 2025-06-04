@@ -65,8 +65,7 @@ const shapeData = [
     bgColor: "bg-[#6066EE]",
     key: "roundBrilliant",
     images: [brilliant, brilliant, brilliant],
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Diamond",
     description:
       "The brilliant round diamond is known for its unmatched sparkle and timeless appeal. With 58 expertly cut facets, it maximizes light reflection, offering exceptional brilliance and fire.",
   },
@@ -75,8 +74,7 @@ const shapeData = [
     bgColor: "bg-[#E0E055]",
     key: "princess",
     images: [princess, princess, princess],
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Diamond",
     description:
       "The princess cut features a square shape and sharp angles, delivering contemporary elegance. Its brilliant-cut facets enhance sparkle, making it a popular choice for engagement rings.",
   },
@@ -85,8 +83,7 @@ const shapeData = [
     bgColor: "bg-[#8DDD8D]",
     key: "emerald",
     images: [emerald, emerald, emerald],
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Diamond",
     description:
       "With its long, sleek lines and step-cut facets, the emerald-cut diamond exudes vintage charm. This shape highlights clarity, offering a unique, understated sparkle.",
   },
@@ -95,6 +92,7 @@ const shapeData = [
     bgColor: "bg-[#F0B1DD]",
     key: "asscher",
     images: [asscher, asscher, asscher],
+    titleAttr:"Diamond",
     description:
       "The Asscher cut, known for its geometric precision and art-deco appeal, boasts step-cut facets that create a mesmerizing hall-of-mirrors effect. It’s perfect for a bold, classic look.",
   },
@@ -686,8 +684,7 @@ export default function LabgrownDiamond() {
               className="w-32 lg:w-44 2xl:w-[250px]"
             />
             <CustomImage
-              titleAttr=""
-              altAttr=""
+              titleAttr="Diamond"
               srcAttr={vibrantColor}
               onMouseEnter={() => dispatch(setIsVibrantColorActive(true))}
               onMouseLeave={() => dispatch(setIsVibrantColorActive(false))}
@@ -718,8 +715,7 @@ export default function LabgrownDiamond() {
             />
             <CustomImage
               srcAttr={superiorCut}
-              titleAttr=""
-              altAttr=""
+              titleAttr="Diamond"
               onMouseEnter={() => dispatch(setIsSuperiorCutActive(true))}
               onMouseLeave={() => dispatch(setIsSuperiorCutActive(false))}
               className="absolute inset-0  m-auto w-[100px] lg:w-[150px] 2xl:w-[200px] cursor-pointer"
@@ -733,7 +729,7 @@ export default function LabgrownDiamond() {
                 index={"3"}
                 imageSrc={superiorCutPrecision}
                 altAttr=""
-                titleAttr=""
+                titleAttr="Diamond"
                 title="Genuine Materials"
                 description="Authentic and high-quality materials you can trust."
               />
@@ -749,8 +745,7 @@ export default function LabgrownDiamond() {
             />
             <CustomImage
               srcAttr={exceptionalClarity}
-              titleAttr=""
-              altAttr=""
+              titleAttr="Diamond"
               onMouseEnter={() => dispatch(setIsExceptionalClarityActive(true))}
               onMouseLeave={() =>
                 dispatch(setIsExceptionalClarityActive(false))
@@ -781,8 +776,7 @@ export default function LabgrownDiamond() {
               className="w-32 lg:w-44 2xl:w-[250px]"
             />
             <CustomImage
-              titleAttr=""
-              altAttr=""
+              titleAttr="Diamond"
               srcAttr={brilliantCutDiamond}
               onMouseEnter={() => dispatch(setIsBrilliantCutActive(true))}
               onMouseLeave={() => dispatch(setIsBrilliantCutActive(false))}
@@ -799,6 +793,7 @@ export default function LabgrownDiamond() {
                 index={"3"}
                 imageSrc={brilliantCut}
                 title="Customer Focused"
+                titleAttr="Diamond Ring | Diamond Jewelry"
                 description="Committed to delivering excellence and satisfaction."
               />
             </div>
