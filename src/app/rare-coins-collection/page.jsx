@@ -83,7 +83,7 @@ export default function RareCoinsCollection() {
           title="Explore, Buy, or Sell Rare Coins Today"
           imageSrc={heroRareCoin}
           textAlignment="center"
-          titleAttr=""
+          titleAttr="Silver Coins | Silver Bars"
           altAttr=""
         />
       </section>

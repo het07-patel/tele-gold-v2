@@ -49,7 +49,7 @@ const animatedContent = [
 ];
 
 const items = [
-  { title: "Convenience", image: goldSilver3, titleAttr: "", altAttr: "" },
+  { title: "Convenience", image: goldSilver3, titleAttr: "Diamond Ring | Diamond Jewelry", altAttr: "" },
   { title: "Fairness", image: goldSilver4, titleAttr: "", altAttr: "" },
   { title: "Risk-Free", image: goldSilver5, titleAttr: "", altAttr: "" },
 ];
@@ -70,8 +70,7 @@ const benefits = [
     description:
       "Get top market prices with no hidden fees or complicated terms—whether you’re purchasing or selling.",
     image: goldSilver7,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Antique Jewelry | Diamond Jewelry",
   },
   {
     number: "3",
@@ -79,8 +78,7 @@ const benefits = [
     description:
       "Enjoy a smooth experience with fast appraisals, fair offers, and prompt transactions on both buying and selling.",
     image: goldSilver8,
-    titleAttr: "",
-    altAttr: "",
+    titleAttr: "Necklace | Jewelry",
   },
   {
     number: "4",
@@ -133,8 +131,7 @@ export default function GoldSilverPlatinum() {
           title="Trusted Gold, Silver & Platinum Experts"
           imageSrc={heroGoldSilver}
           textAlignment="center"
-          titleAttr=""
-          altAttr=""
+          titleAttr="Gold Jewelry | Diamond Jewelry"
         />
       </section>
 
@@ -182,9 +179,9 @@ export default function GoldSilverPlatinum() {
             {items.map((item, index) => (
               <div key={index} className="relative group">
                 <CustomImage
-                  srcAttr={item.image}
-                  titleAttr={item.titleAttr}
-                  altAttr={item.altAttr}
+                  srcAttr={item?.image}
+                  titleAttr={item?.titleAttr}
+                  altAttr={item?.altAttr}
                   className="w-full  object-cover "
                 />
                 <div className="absolute bottom-5 left-0 w-full font-belleza bg-opacity-50 text-white text-2xl xl:text-4xl py-3 text-center">
@@ -211,9 +208,9 @@ export default function GoldSilverPlatinum() {
               <div className="w-full md:w-[40%] lg:w-[45%]">
                 <div className="h-[250px] w-full">
                   <CustomImage
-                    srcAttr={item.image}
-                    titleAttr={item.titleAttr}
-                    altAttr={item.altAttr}
+                    srcAttr={item?.image}
+                    titleAttr={item?.titleAttr}
+                    altAttr={item?.altAttr}
                     className="w-full h-full object-cover"
                   />
                 </div>

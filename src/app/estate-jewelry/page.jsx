@@ -74,8 +74,8 @@ export default function EstateJewelry() {
           title="Trusted Place to Buy and Sell Estate Diamond Jewelry"
           imageSrc={heroEstate}
           textAlignment="center"
-          titleAttr=""
-          altAttr=""
+          titleAttr="Antique Jewelry | Diamond Jewelry"
+          altAttr="Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum"
         />
       </section>
 
@@ -99,8 +99,7 @@ export default function EstateJewelry() {
 
         <div>
           <CustomImage
-            titleAttr=""
-            altAttr=""
+            titleAttr="Diamond Ring | Diamond Jewelry"
             srcAttr={estate1}
             className="w-full object-cover"
           />
@@ -141,8 +140,7 @@ export default function EstateJewelry() {
           <div className="md:relative flex  bottom-[-10%] lg:bottom-[0%] 4xl:bottom-[-10%]">
             <CustomImage
               srcAttr={estate3}
-              titleAttr=""
-              altAttr=""
+              titleAttr="Gold Jewelry | Diamond Jewelry"
               className="w-[100%] 4xl:!w-[68%] 4xl:h-[550px] object-cover"
             />
           </div>
@@ -150,8 +148,7 @@ export default function EstateJewelry() {
             <div>
               <CustomImage
                 srcAttr={estate4}
-                titleAttr=""
-                altAttr=""
+                titleAttr="Gold Jewelry | Diamond Jewelry"
                 className="w-full "
               />
             </div>

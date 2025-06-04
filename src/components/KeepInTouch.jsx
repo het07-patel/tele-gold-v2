@@ -28,7 +28,7 @@ const KeepInTouch = () => {
         <div className="flex justify-end">
           <CustomImage
             srcAttr={keepInTouch}
-            titleAttr=""
+            titleAttr="Diamond Bracelet | Diamond Jewelry"
             altAttr=""
             className="w-[80%]  object-cover"
           />

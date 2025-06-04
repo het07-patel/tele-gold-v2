@@ -27,8 +27,8 @@ const Hero = ({
         <div className="relative w-full h-full">
   <CustomImage
     srcAttr={imageSrc}
-    altAttr=""
-    titleAttr=""
+    altAttr={altAttr}
+    titleAttr={titleAttr}
     priority
     className="w-full h-full object-cover"
   />
@@ -87,8 +87,7 @@ const Hero = ({
             <CustomImage
               srcAttr={labgrownHero}
               className="lg:w-full"
-              titleAttr=""
-              altAttr=""
+              titleAttr="Diamond"
             />
           </div>
           <div className="container absolute inset-0 flex items-center justify-center z-40">

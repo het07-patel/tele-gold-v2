@@ -71,8 +71,8 @@ export default function AboutUs() {
           title="Crafting Connections Through Timeless Treasures"
           imageSrc={heroAboutUs}
           textAlignment="center"
-          titleAttr=""
-          altAttr=""
+          titleAttr="Silver Coins | Silver Bars"
+          altAttr="Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum"
         />
       </section>
 
@@ -116,15 +116,14 @@ export default function AboutUs() {
             <div className="absolute xl:block hidden top-[-55%] 2xl:top-[-50%] left-[6%] ">
               <CustomImage
                 srcAttr={aboutUs4}
-                altAttr=""
-                titleAttr=""
+                titleAttr="Watch | Rolex | Citizen"
                 className="2xl:w-full w-[70%]  h-full"
               />
             </div>
             <div className="relative lg:bottom-[-30%] flex justify-center">
               <CustomImage
                 srcAttr={aboutUs2}
-                altAttr="Left Image"
+                titleAttr="Diamond Ring | Diamond Jewelry"
                 className="w-[20%] lg:h-auto lg:w-[30%]"
               />
             </div>
@@ -147,8 +146,7 @@ export default function AboutUs() {
             <div className="relative flex justify-center lg:justify-end">
               <CustomImage
                 srcAttr={aboutUs3}
-                altAttr=" "
-                titleAttr=""
+                titleAttr="Coins"
                 className="w-full lg:w-[80%]"
               />
             </div>

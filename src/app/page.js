@@ -34,38 +34,38 @@ const diamondShapes = [
   {
     title: "Round",
     shapeImg: round,
-    altAttr: "",
-    titleAttr: "",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
+    titleAttr: "Diamond",
   },
   {
     title: "Emerald",
     shapeImg: emerald,
-    altAttr: "",
-    titleAttr: "",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
+    titleAttr: "Diamond",
   },
   {
     title: "Cushion",
     shapeImg: cushion,
-    altAttr: "",
-    titleAttr: "",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
+    titleAttr: "Diamond",
   },
   {
     title: "Princess",
     shapeImg: princess,
-    altAttr: "",
-    titleAttr: "",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
+    titleAttr: "Diamond",
   },
   {
     title: "Oval",
     shapeImg: oval,
-    altAttr: "",
-    titleAttr: "",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
+    titleAttr: "Diamond",
   },
   {
     title: "Marquise",
     shapeImg: marquise,
-    altAttr: "",
-    titleAttr: "",
+    altAttr: "Tele Gold Jewelers | Diamond Jewelry, Coin, Gold, Silver, Platinum",
+    titleAttr: "Diamond",
   },
 ];
 
@@ -127,16 +127,14 @@ export default function Home() {
             <div className="grid grid-rows-2 gap-6 md:gap-16 place-items-center ">
               <div>
                 <CustomImage
-                  altAttr=""
-                  titleAttr=""
+                  titleAttr="Diamond Ring | Diamond Jewelry"
                   srcAttr={silverLeafPendant}
                   className="rounded-lg"
                 />
               </div>
               <div>
                 <CustomImage
-                  altAttr=""
-                  titleAttr=""
+                  titleAttr="Diamond Ring | Diamond Jewelry"
                   srcAttr={diamondChainPendant}
                   className="rounded-lg"
                 />
@@ -145,16 +143,14 @@ export default function Home() {
             <div className="grid grid-rows-2 gap-6 place-items-center ">
               <div>
                 <CustomImage
-                  altAttr=""
-                  titleAttr=""
+                  titleAttr="Diamond Ring | Diamond Jewelry"
                   srcAttr={butterflyNecklace}
                   className="rounded-lg"
                 />
               </div>
               <div>
                 <CustomImage
-                  altAttr=""
-                  titleAttr=""
+                  titleAttr="Diamond Ring | Diamond Jewelry"
                   srcAttr={doubleLoopNecklace}
                   className="rounded-lg"
                 />
@@ -180,10 +176,10 @@ export default function Home() {
                 className="bg-white px-4 py-4 2xl:py-6 text-center rounded-lg"
               >
                 <CustomImage
-                  altAttr={shape.altAttr}
-                  titleAttr={shape.titleAttr}
+                  altAttr={shape?.altAttr}
+                  titleAttr={shape?.titleAttr}
                   className="inline-block"
-                  srcAttr={shape.shapeImg}
+                  srcAttr={shape?.shapeImg}
                 />
                 <h3 className=" font-belleza italic text-xl">{shape.title}</h3>
               </div>
@@ -204,14 +200,12 @@ export default function Home() {
           <div className="lg:absolute lg:inset-0 flex  flex-col md:flex-row justify-between gap-6 lg:gap-0">
             <CustomImage
               srcAttr={jewelryBoxDiamondRing}
-              altAttr=""
-              titleAttr=""
+              titleAttr="Diamond Ring | Diamond Jewelry"
               className="w-screen lg:w-48 lg:h-48 2xl:w-60 2xl:h-60"
             />
             <CustomImage
               srcAttr={necklaceCloseup}
-              altAttr=""
-              titleAttr=""
+              titleAttr="Gold Jewelry | Diamond Jewelry"
               className="w-screen lg:w-48 lg:h-48 2xl:w-60 2xl:h-60"
             />
           </div>
@@ -242,14 +236,12 @@ export default function Home() {
           <div className="2xl:px-10 lg:absolute lg:container lg:inset-x-0 lg:bottom-0 flex flex-col md:flex-row justify-between items-center  w-full">
             <CustomImage
               srcAttr={handWithRing}
-              altAttr=""
-              titleAttr=""
+              titleAttr="Silver Coins | Silver Bars"
               className="w-full md:w-1/2 lg:w-56 lg:h-56 2xl:w-60 2xl:h-60"
             />
             <CustomImage
               srcAttr={diamondNecklaceWoman}
-              altAttr=""
-              titleAttr=""
+              titleAttr="Diamond Ring | Diamond Jewelry"
               className="w-full md:w-1/2 lg:w-60 lg:h-60 2xl:w-72 2xl:h-72"
             />
           </div>
@@ -260,7 +252,9 @@ export default function Home() {
         <div className="w-full flex flex-col lg:flex-row justify-between gap-5"></div>
       </section>
       <section className="pt-10 md:pt-14 xl:pt-24 2xl:pt-36 relative ">
-        <CustomImage srcAttr={shopTheLookBg} altAttr="" titleAttr="" />
+        <CustomImage srcAttr={shopTheLookBg} 
+        titleAttr="Diamond Ring | Diamond Jewelry" 
+        />
 
         <div className="absolute bottom-[10%] left-[10%]   text-primary">
           <div className="flex items-center gap-6">
